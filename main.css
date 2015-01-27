@@ -8,6 +8,8 @@ h1 {
 }
 li {
 	font-family: Courier, sans-serif;
+	color: #FFFFFF;
+	font-size: 32px;
 }
 
 a:link {
