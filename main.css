@@ -8,5 +8,20 @@ h1 {
 }
 li {
 	font-family: Courier, sans-serif;
-	color: #FFFFFF;
+}
+
+a:link {
+    color: #FFFFFF;
+}
+
+a:visited {
+    color: #E6E9ED;
+}
+
+a:hover {
+    color: #4FC1E9;
+}
+
+a:active {
+    color: #4FC1E9;
 }
