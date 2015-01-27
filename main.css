@@ -1,8 +1,10 @@
+body {
+	background: #E9573F;
+}
 h1 {
 	font-family: "Trade Gothic Condensed", Univers, sans-serif;
 	font-size: 60px;
 	color: white;
-	background: #E9573F;
 }
 li {
 	font-family: Courier, sans-serif;
