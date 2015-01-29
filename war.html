@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Wars Since the 19th century</title>
+		<script type="text/javascript" src="d3.js"></script>
+		<style type="text/css">
+			.axis path,
+			.axis line {
+				fill: none;
+				stroke: black;
+				shape-rendering: crispEdges;
+			}
+			.axis text {
+				font-family: sans-serif;
+				font-size: 11px;
+			}
+            div.tooltip {   
+              position: absolute;           
+              text-align: center;           
+              width: 80px;                  
+              height: 28px;                 
+              padding: 2px;             
+              font: 10px sans-serif;        
+              background: lightsteelblue;   
+              border: 0px;      
+              border-radius: 8px;           
+              pointer-events: none;         
+            }
+		</style>
+	</head>
+	<body>
+	
+		<p>War: type on Y axis, year on X, color = region, height = #casualties, width = outcome (ended, stalemate, continued)</p>
+	
+		<script type="text/javascript">
+/* Creates a scatterplot that maps:
+-the year the war started
+-the location of the war: 
+    1 = W. Hemisphere
+    2 = Europe
+    4 = Africa
+    6 = Middle East
+    7 = Asia
+    9 = Oceania
+-casualties
+-type of war
+    1 = Inter-state war
+    2 = Colonial War
+    3 = Imperial War
+    4 = Civil war for central control
+    5 = Civil war over local issues
+    6 = Regional internal
+    7 = Intercommunal
+    8 = wars between or among non-state entities that take place in non-state territory
+    9 = wars between NSAs that take place across state borders 
+-outcome of war
+    1 - Side A wins
+    2 - Side B wins
+    3 - Compromise
+    4 - The war was transformed into another type of war
+    5 - The war is ongoing as of 12/31/2007
+    6 - Stalemate
+    7 - Conflict continues at below war level
+*/
+			//Width and height
+			var w = 1200;
+			var h = 400;
+			var padding = 30;
+			
+			//load dataset from war.json
+			var dataset;
+            d3.json("war.json", function(json) {
+                dataset = json;
+                console.log(dataset); //Log output to console
+                //Create scale functions
+                var xScale = d3.scale.linear()
+                    .domain([d3.min(dataset, function(d) { return d.StartYear1; })-10, d3.max(dataset, function(d) { return d.StartYear1; })+10])
+                    .range([padding, w - padding * 5]);
+                var yScale = d3.scale.linear()
+                    .domain([0, d3.max(dataset, function(d) { return d.WarType; })])
+                    .range([h - padding, padding]);
+                var radyScale = d3.scale.linear()
+                    .domain([2, d3.max(dataset, function(d) {return d.TotalDeaths;})])
+                    .range([4, 20]);
+                var radxScale = d3.scale.linear()
+                    .domain([1, d3.max(dataset, function(d) {return d.Outcome;})])
+                    .range([4, 30]);
+                var color = d3.scale.ordinal()
+                    .range(["#E9573F", "#FCBB42", "#8CC152", "#3BAFDA", "#967ADC", "#D770AD"]);
+                //define x axis
+                var xAxis = d3.svg.axis()
+                        .scale(xScale)
+                        .orient("bottom")
+                        .ticks(10)
+                        .tickFormat(d3.format("d"));
+                //define y axis
+                var yAxis = d3.svg.axis()
+                        .scale(yScale)
+                        .orient("left")
+                        .ticks(10);
+                //Create SVG element
+                var svg = d3.select("body")
+                        .append("svg")
+						.attr("width", w)
+						.attr("height", h);
+                //create div for mouseover
+                var div = d3.select("body").append("div")   
+                        .attr("class", "tooltip")               
+                        .style("opacity", 0);
+                //create dots
+                svg.selectAll("ellipse")
+                        .data(dataset)
+                        .enter()
+                        .append("ellipse")
+                        .attr("cx", function(d) {
+                            return xScale(d.StartYear1);
+                        })
+                        .attr("cy", function(d) {
+                            return yScale(d.WarType);
+                        })
+                        .attr("ry", function(d) {
+                            return radyScale(d.TotalDeaths);
+                        })
+                        .attr("rx", function(d) {
+                            return radxScale(d.Outcome);
+                        })
+                        .attr("fill", function(d) {
+                            return color(d.WhereFought);
+                        })
+                        .attr("opacity", 0.2)
+                        .on("mouseover", function(d) {      
+                        div.transition()        
+                            .duration(200)      
+                            .style("opacity", .9);      
+                        div.html(d.WarName)  
+                            .style("left", (d3.event.pageX) + "px")     
+                            .style("top", (d3.event.pageY - 28) + "px");    
+                        })                  
+                        .on("mouseout", function(d) {       
+                            div.transition()        
+                                .duration(500)      
+                                .style("opacity", 0);   
+                        });
+                //create x axis
+                svg.append("g")
+				.attr("class", "x axis")
+				.attr("transform", "translate(0," + (h - padding) + ")")
+				.call(xAxis);
+                //create y axis
+    			svg.append("g")
+                .attr("class", "y axis")
+				.attr("transform", "translate(" + padding + ",0)")
+				.call(yAxis);
+                //LEGEND
+                var regions = ["W. Hemisphere", "Europe", "Africa", "Middle East", "Asia", "Oceania"];
+                var legend = svg.selectAll(".legend")
+                .data(regions)
+                .enter()
+                .append("g")
+                .attr("class", "legend")
+                .attr("transform", function(d, i) { return "translate(0," + i * 30 + ")"; });
+
+                legend.append("rect")
+                  .attr("x", w - 18)
+                  .attr("width", 18)
+                  .attr("height", 18)
+                  .style("fill", color)
+                .style("opacity", 0.8);
+
+                legend.append("text")
+                  .attr("x", w - 24)
+                  .attr("y", 9)
+                  .attr("dy", ".35em")
+                  .style("text-anchor", "end")
+                  .style("font-family", "sans-serif")
+                  .style("font-size", "11px")
+                  .text(function(d) { return d; });
+               
+            })
+
+		</script>
+	</body>
+</html>
