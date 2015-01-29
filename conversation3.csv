@@ -1,0 +1,371 @@
+sender,time,text,repScore,totChoices,isWinner,sTime,responseNum2,responseNum
+boys,16:20:51,What do you think love is?,0.728571428571429,84,TRUE,28,1,1
+boys,16:20:51,What is love to you?,0.6232142857142860,84,FALSE,51,1,1
+boys,16:20:51,love shmov,0.5136904761904760,84,FALSE,37,1,1
+boys,16:20:51,Hey girls.,0.49702380952381,84,FALSE,103,1,1
+boys,16:20:51,I love you,0.49166666666666700,84,FALSE,102,1,1
+boys,16:20:51,Love is a sham,0.4125,84,FALSE,18,1,1
+boys,16:20:51,i hate people,0.375,84,FALSE,198,1,1
+boys,16:20:51,no comment.  -__-,0.35833333333333300,84,FALSE,21,1,1
+girls,16:23:51,I think love is whatever the lover says it is.  What do you think,0.6679563492063490,100,TRUE,34,2,2
+girls,16:23:51,love is a chemical reaction,0.628571428571429,100,FALSE,50,2,2
+girls,16:23:51,what do YOU think love is?,0.611805555555555,100,FALSE,29,2,2
+girls,16:23:51,Love is a promise,0.495833333333333,100,FALSE,187,2,2
+girls,16:23:51,I am not sure,0.42291666666666700,100,FALSE,74,2,2
+girls,16:23:51,love is not real,0.40625,100,FALSE,134,2,2
+girls,16:23:51,I do not think love exists,0.38333333333333300,100,FALSE,178,2,2
+girls,16:23:51,no comment.  -__-,0.38333333333333300,100,FALSE,120,2,2
+boys,16:26:51,love is what hate is not.,0.6513605442176870,67,TRUE,45,3,3
+boys,16:26:51,I think love is an idea tied to an experience,0.608843537414966,67,FALSE,73,3,3
+boys,16:26:51,I think love is many things to many people,0.606462585034014,67,FALSE,89,3,3
+boys,16:26:51,love is just a silly game,0.511904761904762,67,FALSE,14,3,3
+boys,16:26:51,I think love is what I made to your mother.,0.38809523809523800,67,FALSE,12,3,3
+boys,16:26:51,love is just a thing mann,0.378571428571429,67,FALSE,2,3,3
+boys,16:26:51,no comment.  -__-,0.35476190476190500,67,FALSE,199,3,3
+girls,16:29:51,"so, is it the lack of hate which makes you love someone?",0.7398268398268400,83,TRUE,38,4,4
+girls,16:29:51,"well then, what is hate?",0.674458874458875,83,FALSE,187,4,4
+girls,16:29:51,what a boy response...,0.46428571428571400,83,FALSE,160,4,4
+girls,16:29:51,dumb,0.46020408163265300,83,FALSE,153,4,4
+girls,16:29:51,"you are wiser than I thought, boys",0.44217687074829900,83,FALSE,149,4,4
+girls,16:29:51,no comment.  -__-,0.36904761904761900,83,FALSE,29,4,4
+girls,16:29:51,that is a stupid answer,0.35,83,FALSE,37,4,4
+boys,16:32:51,I suppose it is slightly more complicated than that,0.704158936301793,86,TRUE,24,5,5
+boys,16:32:51,"oh girls, it ain't that simple",0.639764996907854,86,FALSE,3,5,5
+boys,16:32:51,it is the lack of hate which allows one to love at all.,0.6198515769944340,86,FALSE,38,5,5
+boys,16:32:51,ehhhhhh,0.425170068027211,86,FALSE,55,5,5
+boys,16:32:51,yep,0.41666666666666700,86,FALSE,78,5,5
+boys,16:32:51,"well, not exactly",0.41326530612244900,86,FALSE,132,5,5
+boys,16:32:51,no comment.  -__-,0.28112244897959200,86,FALSE,145,5,5
+boys,16:20:51,What do you think love is?,0.728571428571429,84,TRUE,178,6,6
+boys,16:20:51,What is love to you?,0.6232142857142860,84,FALSE,139,6,6
+boys,16:20:51,love shmov,0.5136904761904760,84,FALSE,47,6,6
+boys,16:20:51,Hey girls.,0.49702380952381,84,FALSE,6,6,6
+boys,16:20:51,I love you,0.49166666666666700,84,FALSE,61,6,6
+boys,16:20:51,Love is a sham,0.4125,84,FALSE,23,6,6
+boys,16:20:51,i hate people,0.375,84,FALSE,37,6,6
+boys,16:20:51,no comment.  -__-,0.35833333333333300,84,FALSE,145,6,6
+girls,16:23:51,I think love is whatever the lover says it is.  What do you think,0.6679563492063490,100,TRUE,134,7,7
+girls,16:23:51,love is a chemical reaction,0.628571428571429,100,FALSE,13,7,7
+girls,16:23:51,what do YOU think love is?,0.611805555555555,100,FALSE,44,7,7
+girls,16:23:51,Love is a promise,0.495833333333333,100,FALSE,55,7,7
+girls,16:23:51,I am not sure,0.42291666666666700,100,FALSE,68,7,7
+girls,16:23:51,love is not real,0.40625,100,FALSE,98,7,7
+girls,16:23:51,I do not think love exists,0.38333333333333300,100,FALSE,83,7,7
+girls,16:23:51,no comment.  -__-,0.38333333333333300,100,FALSE,112,7,7
+boys,16:26:51,love is what hate is not.,0.6513605442176870,67,TRUE,146,8,8
+boys,16:26:51,I think love is an idea tied to an experience,0.608843537414966,67,FALSE,172,8,8
+boys,16:26:51,I think love is many things to many people,0.606462585034014,67,FALSE,13,8,8
+boys,16:26:51,love is just a silly game,0.511904761904762,67,FALSE,2,8,8
+boys,16:26:51,I think love is what I made to your mother.,0.38809523809523800,67,FALSE,100,8,8
+boys,16:26:51,love is just a thing mann,0.378571428571429,67,FALSE,128,8,8
+boys,16:26:51,no comment.  -__-,0.35476190476190500,67,FALSE,184,8,8
+girls,16:29:51,"so, is it the lack of hate which makes you love someone?",0.7398268398268400,83,TRUE,177,9,9
+girls,16:29:51,"well then, what is hate?",0.674458874458875,83,FALSE,160,9,9
+girls,16:29:51,what a boy response...,0.46428571428571400,83,FALSE,42,9,9
+girls,16:29:51,dumb,0.46020408163265300,83,FALSE,39,9,9
+girls,16:29:51,"you are wiser than I thought, boys",0.44217687074829900,83,FALSE,189,9,9
+girls,16:29:51,no comment.  -__-,0.36904761904761900,83,FALSE,170,9,9
+girls,16:29:51,that is a stupid answer,0.35,83,FALSE,68,9,9
+boys,16:32:51,I suppose it is slightly more complicated than that,0.704158936301793,86,TRUE,92,10,10
+boys,16:32:51,"oh girls, it ain't that simple",0.639764996907854,86,FALSE,111,10,10
+boys,16:32:51,it is the lack of hate which allows one to love at all.,0.6198515769944340,86,FALSE,119,10,10
+boys,16:32:51,ehhhhhh,0.425170068027211,86,FALSE,39,10,10
+boys,16:32:51,yep,0.41666666666666700,86,FALSE,35,10,10
+boys,16:32:51,"well, not exactly",0.41326530612244900,86,FALSE,28,10,10
+boys,16:32:51,no comment.  -__-,0.28112244897959200,86,FALSE,76,10,10
+boys,16:20:51,What do you think love is?,0.728571428571429,84,TRUE,50,11,11
+boys,16:20:51,What is love to you?,0.6232142857142860,84,FALSE,43,11,11
+boys,16:20:51,love shmov,0.5136904761904760,84,FALSE,113,11,11
+boys,16:20:51,Hey girls.,0.49702380952381,84,FALSE,114,11,11
+boys,16:20:51,I love you,0.49166666666666700,84,FALSE,183,11,11
+boys,16:20:51,Love is a sham,0.4125,84,FALSE,160,11,11
+boys,16:20:51,i hate people,0.375,84,FALSE,32,11,11
+boys,16:20:51,no comment.  -__-,0.35833333333333300,84,FALSE,147,11,11
+girls,16:23:51,I think love is whatever the lover says it is.  What do you think,0.6679563492063490,100,TRUE,119,12,12
+girls,16:23:51,love is a chemical reaction,0.628571428571429,100,FALSE,12,12,12
+girls,16:23:51,what do YOU think love is?,0.611805555555555,100,FALSE,176,12,12
+girls,16:23:51,Love is a promise,0.495833333333333,100,FALSE,163,12,12
+girls,16:23:51,I am not sure,0.42291666666666700,100,FALSE,45,12,12
+girls,16:23:51,love is not real,0.40625,100,FALSE,82,12,12
+girls,16:23:51,I do not think love exists,0.38333333333333300,100,FALSE,87,12,12
+girls,16:23:51,no comment.  -__-,0.38333333333333300,100,FALSE,28,12,12
+boys,16:26:51,love is what hate is not.,0.6513605442176870,67,TRUE,51,13,13
+boys,16:26:51,I think love is an idea tied to an experience,0.608843537414966,67,FALSE,37,13,13
+boys,16:26:51,I think love is many things to many people,0.606462585034014,67,FALSE,103,13,13
+boys,16:26:51,love is just a silly game,0.511904761904762,67,FALSE,102,13,13
+boys,16:26:51,I think love is what I made to your mother.,0.38809523809523800,67,FALSE,18,13,13
+boys,16:26:51,love is just a thing mann,0.378571428571429,67,FALSE,198,13,13
+boys,16:26:51,no comment.  -__-,0.35476190476190500,67,FALSE,21,13,13
+girls,16:29:51,"so, is it the lack of hate which makes you love someone?",0.7398268398268400,83,TRUE,34,14,14
+girls,16:29:51,"well then, what is hate?",0.674458874458875,83,FALSE,50,14,14
+girls,16:29:51,what a boy response...,0.46428571428571400,83,FALSE,29,14,14
+girls,16:29:51,dumb,0.46020408163265300,83,FALSE,187,14,14
+girls,16:29:51,"you are wiser than I thought, boys",0.44217687074829900,83,FALSE,74,14,14
+girls,16:29:51,no comment.  -__-,0.36904761904761900,83,FALSE,134,14,14
+girls,16:29:51,that is a stupid answer,0.35,83,FALSE,178,14,14
+boys,16:32:51,I suppose it is slightly more complicated than that,0.704158936301793,86,TRUE,120,15,15
+boys,16:32:51,"oh girls, it ain't that simple",0.639764996907854,86,FALSE,45,15,15
+boys,16:32:51,it is the lack of hate which allows one to love at all.,0.6198515769944340,86,FALSE,73,15,15
+boys,16:32:51,ehhhhhh,0.425170068027211,86,FALSE,89,15,15
+boys,16:32:51,yep,0.41666666666666700,86,FALSE,14,15,15
+boys,16:32:51,"well, not exactly",0.41326530612244900,86,FALSE,12,15,15
+boys,16:32:51,no comment.  -__-,0.28112244897959200,86,FALSE,2,15,15
+boys,16:20:51,What do you think love is?,0.728571428571429,84,TRUE,199,16,16
+boys,16:20:51,What is love to you?,0.6232142857142860,84,FALSE,38,16,16
+boys,16:20:51,love shmov,0.5136904761904760,84,FALSE,187,16,16
+boys,16:20:51,Hey girls.,0.49702380952381,84,FALSE,160,16,16
+boys,16:20:51,I love you,0.49166666666666700,84,FALSE,153,16,16
+boys,16:20:51,Love is a sham,0.4125,84,FALSE,149,16,16
+boys,16:20:51,i hate people,0.375,84,FALSE,29,16,16
+boys,16:20:51,no comment.  -__-,0.35833333333333300,84,FALSE,37,16,16
+girls,16:23:51,I think love is whatever the lover says it is.  What do you think,0.6679563492063490,100,TRUE,24,17,17
+girls,16:23:51,love is a chemical reaction,0.628571428571429,100,FALSE,3,17,17
+girls,16:23:51,what do YOU think love is?,0.611805555555555,100,FALSE,38,17,17
+girls,16:23:51,Love is a promise,0.495833333333333,100,FALSE,55,17,17
+girls,16:23:51,I am not sure,0.42291666666666700,100,FALSE,78,17,17
+girls,16:23:51,love is not real,0.40625,100,FALSE,132,17,17
+girls,16:23:51,I do not think love exists,0.38333333333333300,100,FALSE,145,17,17
+girls,16:23:51,no comment.  -__-,0.38333333333333300,100,FALSE,178,17,17
+boys,16:26:51,love is what hate is not.,0.6513605442176870,67,TRUE,139,18,18
+boys,16:26:51,I think love is an idea tied to an experience,0.608843537414966,67,FALSE,47,18,18
+boys,16:26:51,I think love is many things to many people,0.606462585034014,67,FALSE,6,18,18
+boys,16:26:51,love is just a silly game,0.511904761904762,67,FALSE,61,18,18
+boys,16:26:51,I think love is what I made to your mother.,0.38809523809523800,67,FALSE,23,18,18
+boys,16:26:51,love is just a thing mann,0.378571428571429,67,FALSE,37,18,18
+boys,16:26:51,no comment.  -__-,0.35476190476190500,67,FALSE,145,18,18
+girls,16:29:51,"so, is it the lack of hate which makes you love someone?",0.7398268398268400,83,TRUE,134,19,19
+girls,16:29:51,"well then, what is hate?",0.674458874458875,83,FALSE,13,19,19
+girls,16:29:51,what a boy response...,0.46428571428571400,83,FALSE,44,19,19
+girls,16:29:51,dumb,0.46020408163265300,83,FALSE,55,19,19
+girls,16:29:51,"you are wiser than I thought, boys",0.44217687074829900,83,FALSE,68,19,19
+girls,16:29:51,no comment.  -__-,0.36904761904761900,83,FALSE,98,19,19
+girls,16:29:51,that is a stupid answer,0.35,83,FALSE,83,19,19
+boys,16:32:51,I suppose it is slightly more complicated than that,0.704158936301793,86,TRUE,112,20,20
+boys,16:32:51,"oh girls, it ain't that simple",0.639764996907854,86,FALSE,146,20,20
+boys,16:32:51,it is the lack of hate which allows one to love at all.,0.6198515769944340,86,FALSE,172,20,20
+boys,16:32:51,ehhhhhh,0.425170068027211,86,FALSE,13,20,20
+boys,16:32:51,yep,0.41666666666666700,86,FALSE,2,20,20
+boys,16:32:51,"well, not exactly",0.41326530612244900,86,FALSE,100,20,20
+boys,16:32:51,no comment.  -__-,0.28112244897959200,86,FALSE,128,20,20
+boys,16:20:51,What do you think love is?,0.728571428571429,84,TRUE,184,21,21
+boys,16:20:51,What is love to you?,0.6232142857142860,84,FALSE,177,21,21
+boys,16:20:51,love shmov,0.5136904761904760,84,FALSE,160,21,21
+boys,16:20:51,Hey girls.,0.49702380952381,84,FALSE,42,21,21
+boys,16:20:51,I love you,0.49166666666666700,84,FALSE,39,21,21
+boys,16:20:51,Love is a sham,0.4125,84,FALSE,189,21,21
+boys,16:20:51,i hate people,0.375,84,FALSE,170,21,21
+boys,16:20:51,no comment.  -__-,0.35833333333333300,84,FALSE,68,21,21
+girls,16:23:51,I think love is whatever the lover says it is.  What do you think,0.6679563492063490,100,TRUE,92,22,22
+girls,16:23:51,love is a chemical reaction,0.628571428571429,100,FALSE,111,22,22
+girls,16:23:51,what do YOU think love is?,0.611805555555555,100,FALSE,119,22,22
+girls,16:23:51,Love is a promise,0.495833333333333,100,FALSE,39,22,22
+girls,16:23:51,I am not sure,0.42291666666666700,100,FALSE,35,22,22
+girls,16:23:51,love is not real,0.40625,100,FALSE,28,22,22
+girls,16:23:51,I do not think love exists,0.38333333333333300,100,FALSE,76,22,22
+girls,16:23:51,no comment.  -__-,0.38333333333333300,100,FALSE,50,22,22
+boys,16:26:51,love is what hate is not.,0.6513605442176870,67,TRUE,43,23,23
+boys,16:26:51,I think love is an idea tied to an experience,0.608843537414966,67,FALSE,113,23,23
+boys,16:26:51,I think love is many things to many people,0.606462585034014,67,FALSE,114,23,23
+boys,16:26:51,love is just a silly game,0.511904761904762,67,FALSE,183,23,23
+boys,16:26:51,I think love is what I made to your mother.,0.38809523809523800,67,FALSE,160,23,23
+boys,16:26:51,love is just a thing mann,0.378571428571429,67,FALSE,32,23,23
+boys,16:26:51,no comment.  -__-,0.35476190476190500,67,FALSE,147,23,23
+girls,16:29:51,"so, is it the lack of hate which makes you love someone?",0.7398268398268400,83,TRUE,119,24,24
+girls,16:29:51,"well then, what is hate?",0.674458874458875,83,FALSE,12,24,24
+girls,16:29:51,what a boy response...,0.46428571428571400,83,FALSE,176,24,24
+girls,16:29:51,dumb,0.46020408163265300,83,FALSE,163,24,24
+girls,16:29:51,"you are wiser than I thought, boys",0.44217687074829900,83,FALSE,45,24,24
+girls,16:29:51,no comment.  -__-,0.36904761904761900,83,FALSE,82,24,24
+girls,16:29:51,that is a stupid answer,0.35,83,FALSE,87,24,24
+boys,16:32:51,I suppose it is slightly more complicated than that,0.704158936301793,86,TRUE,23,25,25
+boys,16:32:51,"oh girls, it ain't that simple",0.639764996907854,86,FALSE,65,25,25
+boys,16:32:51,it is the lack of hate which allows one to love at all.,0.6198515769944340,86,FALSE,38,25,25
+boys,16:32:51,ehhhhhh,0.425170068027211,86,FALSE,99,25,25
+boys,16:32:51,yep,0.41666666666666700,86,FALSE,72,25,25
+boys,16:32:51,"well, not exactly",0.41326530612244900,86,FALSE,186,25,25
+boys,16:32:51,no comment.  -__-,0.28112244897959200,86,FALSE,3,25,25
+boys,16:20:51,What do you think love is?,0.728571428571429,84,TRUE,28,1,26
+boys,16:20:51,What is love to you?,0.6232142857142860,84,FALSE,51,1,26
+boys,16:20:51,love shmov,0.5136904761904760,84,FALSE,37,1,26
+boys,16:20:51,Hey girls.,0.49702380952381,84,FALSE,103,1,26
+boys,16:20:51,I love you,0.49166666666666700,84,FALSE,102,1,26
+boys,16:20:51,Love is a sham,0.4125,84,FALSE,18,1,26
+boys,16:20:51,i hate people,0.375,84,FALSE,198,1,26
+boys,16:20:51,no comment.  -__-,0.35833333333333300,84,FALSE,21,1,26
+girls,16:23:51,I think love is whatever the lover says it is.  What do you think,0.6679563492063490,100,TRUE,34,2,27
+girls,16:23:51,love is a chemical reaction,0.628571428571429,100,FALSE,50,2,27
+girls,16:23:51,what do YOU think love is?,0.611805555555555,100,FALSE,29,2,27
+girls,16:23:51,Love is a promise,0.495833333333333,100,FALSE,187,2,27
+girls,16:23:51,I am not sure,0.42291666666666700,100,FALSE,74,2,27
+girls,16:23:51,love is not real,0.40625,100,FALSE,134,2,27
+girls,16:23:51,I do not think love exists,0.38333333333333300,100,FALSE,178,2,27
+girls,16:23:51,no comment.  -__-,0.38333333333333300,100,FALSE,120,2,27
+boys,16:26:51,love is what hate is not.,0.6513605442176870,67,TRUE,45,3,28
+boys,16:26:51,I think love is an idea tied to an experience,0.608843537414966,67,FALSE,73,3,28
+boys,16:26:51,I think love is many things to many people,0.606462585034014,67,FALSE,89,3,28
+boys,16:26:51,love is just a silly game,0.511904761904762,67,FALSE,14,3,28
+boys,16:26:51,I think love is what I made to your mother.,0.38809523809523800,67,FALSE,12,3,28
+boys,16:26:51,love is just a thing mann,0.378571428571429,67,FALSE,2,3,28
+boys,16:26:51,no comment.  -__-,0.35476190476190500,67,FALSE,199,3,28
+girls,16:29:51,"so, is it the lack of hate which makes you love someone?",0.7398268398268400,83,TRUE,38,4,29
+girls,16:29:51,"well then, what is hate?",0.674458874458875,83,FALSE,187,4,29
+girls,16:29:51,what a boy response...,0.46428571428571400,83,FALSE,160,4,29
+girls,16:29:51,dumb,0.46020408163265300,83,FALSE,153,4,29
+girls,16:29:51,"you are wiser than I thought, boys",0.44217687074829900,83,FALSE,149,4,29
+girls,16:29:51,no comment.  -__-,0.36904761904761900,83,FALSE,29,4,29
+girls,16:29:51,that is a stupid answer,0.35,83,FALSE,37,4,29
+boys,16:32:51,I suppose it is slightly more complicated than that,0.704158936301793,86,TRUE,24,5,30
+boys,16:32:51,"oh girls, it ain't that simple",0.639764996907854,86,FALSE,3,5,30
+boys,16:32:51,it is the lack of hate which allows one to love at all.,0.6198515769944340,86,FALSE,38,5,30
+boys,16:32:51,ehhhhhh,0.425170068027211,86,FALSE,55,5,30
+boys,16:32:51,yep,0.41666666666666700,86,FALSE,78,5,30
+boys,16:32:51,"well, not exactly",0.41326530612244900,86,FALSE,132,5,30
+boys,16:32:51,no comment.  -__-,0.28112244897959200,86,FALSE,145,5,30
+boys,16:20:51,What do you think love is?,0.728571428571429,84,TRUE,178,6,31
+boys,16:20:51,What is love to you?,0.6232142857142860,84,FALSE,139,6,31
+boys,16:20:51,love shmov,0.5136904761904760,84,FALSE,47,6,31
+boys,16:20:51,Hey girls.,0.49702380952381,84,FALSE,6,6,31
+boys,16:20:51,I love you,0.49166666666666700,84,FALSE,61,6,31
+boys,16:20:51,Love is a sham,0.4125,84,FALSE,23,6,31
+boys,16:20:51,i hate people,0.375,84,FALSE,37,6,31
+boys,16:20:51,no comment.  -__-,0.35833333333333300,84,FALSE,145,6,31
+girls,16:23:51,I think love is whatever the lover says it is.  What do you think,0.6679563492063490,100,TRUE,134,7,32
+girls,16:23:51,love is a chemical reaction,0.628571428571429,100,FALSE,13,7,32
+girls,16:23:51,what do YOU think love is?,0.611805555555555,100,FALSE,44,7,32
+girls,16:23:51,Love is a promise,0.495833333333333,100,FALSE,55,7,32
+girls,16:23:51,I am not sure,0.42291666666666700,100,FALSE,68,7,32
+girls,16:23:51,love is not real,0.40625,100,FALSE,98,7,32
+girls,16:23:51,I do not think love exists,0.38333333333333300,100,FALSE,83,7,32
+girls,16:23:51,no comment.  -__-,0.38333333333333300,100,FALSE,112,7,32
+boys,16:26:51,love is what hate is not.,0.6513605442176870,67,TRUE,146,8,33
+boys,16:26:51,I think love is an idea tied to an experience,0.608843537414966,67,FALSE,172,8,33
+boys,16:26:51,I think love is many things to many people,0.606462585034014,67,FALSE,13,8,33
+boys,16:26:51,love is just a silly game,0.511904761904762,67,FALSE,2,8,33
+boys,16:26:51,I think love is what I made to your mother.,0.38809523809523800,67,FALSE,100,8,33
+boys,16:26:51,love is just a thing mann,0.378571428571429,67,FALSE,128,8,33
+boys,16:26:51,no comment.  -__-,0.35476190476190500,67,FALSE,184,8,33
+girls,16:29:51,"so, is it the lack of hate which makes you love someone?",0.7398268398268400,83,TRUE,177,9,34
+girls,16:29:51,"well then, what is hate?",0.674458874458875,83,FALSE,160,9,34
+girls,16:29:51,what a boy response...,0.46428571428571400,83,FALSE,42,9,34
+girls,16:29:51,dumb,0.46020408163265300,83,FALSE,39,9,34
+girls,16:29:51,"you are wiser than I thought, boys",0.44217687074829900,83,FALSE,189,9,34
+girls,16:29:51,no comment.  -__-,0.36904761904761900,83,FALSE,170,9,34
+girls,16:29:51,that is a stupid answer,0.35,83,FALSE,68,9,34
+boys,16:32:51,I suppose it is slightly more complicated than that,0.704158936301793,86,TRUE,92,10,35
+boys,16:32:51,"oh girls, it ain't that simple",0.639764996907854,86,FALSE,111,10,35
+boys,16:32:51,it is the lack of hate which allows one to love at all.,0.6198515769944340,86,FALSE,119,10,35
+boys,16:32:51,ehhhhhh,0.425170068027211,86,FALSE,39,10,35
+boys,16:32:51,yep,0.41666666666666700,86,FALSE,35,10,35
+boys,16:32:51,"well, not exactly",0.41326530612244900,86,FALSE,28,10,35
+boys,16:32:51,no comment.  -__-,0.28112244897959200,86,FALSE,76,10,35
+boys,16:20:51,What do you think love is?,0.728571428571429,84,TRUE,50,11,36
+boys,16:20:51,What is love to you?,0.6232142857142860,84,FALSE,43,11,36
+boys,16:20:51,love shmov,0.5136904761904760,84,FALSE,113,11,36
+boys,16:20:51,Hey girls.,0.49702380952381,84,FALSE,114,11,36
+boys,16:20:51,I love you,0.49166666666666700,84,FALSE,183,11,36
+boys,16:20:51,Love is a sham,0.4125,84,FALSE,160,11,36
+boys,16:20:51,i hate people,0.375,84,FALSE,32,11,36
+boys,16:20:51,no comment.  -__-,0.35833333333333300,84,FALSE,147,11,36
+girls,16:23:51,I think love is whatever the lover says it is.  What do you think,0.6679563492063490,100,TRUE,119,12,37
+girls,16:23:51,love is a chemical reaction,0.628571428571429,100,FALSE,12,12,37
+girls,16:23:51,what do YOU think love is?,0.611805555555555,100,FALSE,176,12,37
+girls,16:23:51,Love is a promise,0.495833333333333,100,FALSE,163,12,37
+girls,16:23:51,I am not sure,0.42291666666666700,100,FALSE,45,12,37
+girls,16:23:51,love is not real,0.40625,100,FALSE,82,12,37
+girls,16:23:51,I do not think love exists,0.38333333333333300,100,FALSE,87,12,37
+girls,16:23:51,no comment.  -__-,0.38333333333333300,100,FALSE,28,12,37
+boys,16:26:51,love is what hate is not.,0.6513605442176870,67,TRUE,51,13,38
+boys,16:26:51,I think love is an idea tied to an experience,0.608843537414966,67,FALSE,37,13,38
+boys,16:26:51,I think love is many things to many people,0.606462585034014,67,FALSE,103,13,38
+boys,16:26:51,love is just a silly game,0.511904761904762,67,FALSE,102,13,38
+boys,16:26:51,I think love is what I made to your mother.,0.38809523809523800,67,FALSE,18,13,38
+boys,16:26:51,love is just a thing mann,0.378571428571429,67,FALSE,198,13,38
+boys,16:26:51,no comment.  -__-,0.35476190476190500,67,FALSE,21,13,38
+girls,16:29:51,"so, is it the lack of hate which makes you love someone?",0.7398268398268400,83,TRUE,34,14,39
+girls,16:29:51,"well then, what is hate?",0.674458874458875,83,FALSE,50,14,39
+girls,16:29:51,what a boy response...,0.46428571428571400,83,FALSE,29,14,39
+girls,16:29:51,dumb,0.46020408163265300,83,FALSE,187,14,39
+girls,16:29:51,"you are wiser than I thought, boys",0.44217687074829900,83,FALSE,74,14,39
+girls,16:29:51,no comment.  -__-,0.36904761904761900,83,FALSE,134,14,39
+girls,16:29:51,that is a stupid answer,0.35,83,FALSE,178,14,39
+boys,16:32:51,I suppose it is slightly more complicated than that,0.704158936301793,86,TRUE,120,15,40
+boys,16:32:51,"oh girls, it ain't that simple",0.639764996907854,86,FALSE,45,15,40
+boys,16:32:51,it is the lack of hate which allows one to love at all.,0.6198515769944340,86,FALSE,73,15,40
+boys,16:32:51,ehhhhhh,0.425170068027211,86,FALSE,89,15,40
+boys,16:32:51,yep,0.41666666666666700,86,FALSE,14,15,40
+boys,16:32:51,"well, not exactly",0.41326530612244900,86,FALSE,12,15,40
+boys,16:32:51,no comment.  -__-,0.28112244897959200,86,FALSE,2,15,40
+boys,16:20:51,What do you think love is?,0.728571428571429,84,TRUE,199,16,41
+boys,16:20:51,What is love to you?,0.6232142857142860,84,FALSE,38,16,41
+boys,16:20:51,love shmov,0.5136904761904760,84,FALSE,187,16,41
+boys,16:20:51,Hey girls.,0.49702380952381,84,FALSE,160,16,41
+boys,16:20:51,I love you,0.49166666666666700,84,FALSE,153,16,41
+boys,16:20:51,Love is a sham,0.4125,84,FALSE,149,16,41
+boys,16:20:51,i hate people,0.375,84,FALSE,29,16,41
+boys,16:20:51,no comment.  -__-,0.35833333333333300,84,FALSE,37,16,41
+girls,16:23:51,I think love is whatever the lover says it is.  What do you think,0.6679563492063490,100,TRUE,24,17,42
+girls,16:23:51,love is a chemical reaction,0.628571428571429,100,FALSE,3,17,42
+girls,16:23:51,what do YOU think love is?,0.611805555555555,100,FALSE,38,17,42
+girls,16:23:51,Love is a promise,0.495833333333333,100,FALSE,55,17,42
+girls,16:23:51,I am not sure,0.42291666666666700,100,FALSE,78,17,42
+girls,16:23:51,love is not real,0.40625,100,FALSE,132,17,42
+girls,16:23:51,I do not think love exists,0.38333333333333300,100,FALSE,145,17,42
+girls,16:23:51,no comment.  -__-,0.38333333333333300,100,FALSE,178,17,42
+boys,16:26:51,love is what hate is not.,0.6513605442176870,67,TRUE,139,18,43
+boys,16:26:51,I think love is an idea tied to an experience,0.608843537414966,67,FALSE,47,18,43
+boys,16:26:51,I think love is many things to many people,0.606462585034014,67,FALSE,6,18,43
+boys,16:26:51,love is just a silly game,0.511904761904762,67,FALSE,61,18,43
+boys,16:26:51,I think love is what I made to your mother.,0.38809523809523800,67,FALSE,23,18,43
+boys,16:26:51,love is just a thing mann,0.378571428571429,67,FALSE,37,18,43
+boys,16:26:51,no comment.  -__-,0.35476190476190500,67,FALSE,145,18,43
+girls,16:29:51,"so, is it the lack of hate which makes you love someone?",0.7398268398268400,83,TRUE,134,19,44
+girls,16:29:51,"well then, what is hate?",0.674458874458875,83,FALSE,13,19,44
+girls,16:29:51,what a boy response...,0.46428571428571400,83,FALSE,44,19,44
+girls,16:29:51,dumb,0.46020408163265300,83,FALSE,55,19,44
+girls,16:29:51,"you are wiser than I thought, boys",0.44217687074829900,83,FALSE,68,19,44
+girls,16:29:51,no comment.  -__-,0.36904761904761900,83,FALSE,98,19,44
+girls,16:29:51,that is a stupid answer,0.35,83,FALSE,83,19,44
+boys,16:32:51,I suppose it is slightly more complicated than that,0.704158936301793,86,TRUE,112,20,45
+boys,16:32:51,"oh girls, it ain't that simple",0.639764996907854,86,FALSE,146,20,45
+boys,16:32:51,it is the lack of hate which allows one to love at all.,0.6198515769944340,86,FALSE,172,20,45
+boys,16:32:51,ehhhhhh,0.425170068027211,86,FALSE,13,20,45
+boys,16:32:51,yep,0.41666666666666700,86,FALSE,2,20,45
+boys,16:32:51,"well, not exactly",0.41326530612244900,86,FALSE,100,20,45
+boys,16:32:51,no comment.  -__-,0.28112244897959200,86,FALSE,128,20,45
+boys,16:20:51,What do you think love is?,0.728571428571429,84,TRUE,184,21,46
+boys,16:20:51,What is love to you?,0.6232142857142860,84,FALSE,177,21,46
+boys,16:20:51,love shmov,0.5136904761904760,84,FALSE,160,21,46
+boys,16:20:51,Hey girls.,0.49702380952381,84,FALSE,42,21,46
+boys,16:20:51,I love you,0.49166666666666700,84,FALSE,39,21,46
+boys,16:20:51,Love is a sham,0.4125,84,FALSE,189,21,46
+boys,16:20:51,i hate people,0.375,84,FALSE,170,21,46
+boys,16:20:51,no comment.  -__-,0.35833333333333300,84,FALSE,68,21,46
+girls,16:23:51,I think love is whatever the lover says it is.  What do you think,0.6679563492063490,100,TRUE,92,22,47
+girls,16:23:51,love is a chemical reaction,0.628571428571429,100,FALSE,111,22,47
+girls,16:23:51,what do YOU think love is?,0.611805555555555,100,FALSE,119,22,47
+girls,16:23:51,Love is a promise,0.495833333333333,100,FALSE,39,22,47
+girls,16:23:51,I am not sure,0.42291666666666700,100,FALSE,35,22,47
+girls,16:23:51,love is not real,0.40625,100,FALSE,28,22,47
+girls,16:23:51,I do not think love exists,0.38333333333333300,100,FALSE,76,22,47
+girls,16:23:51,no comment.  -__-,0.38333333333333300,100,FALSE,50,22,47
+boys,16:26:51,love is what hate is not.,0.6513605442176870,67,TRUE,43,23,48
+boys,16:26:51,I think love is an idea tied to an experience,0.608843537414966,67,FALSE,113,23,48
+boys,16:26:51,I think love is many things to many people,0.606462585034014,67,FALSE,114,23,48
+boys,16:26:51,love is just a silly game,0.511904761904762,67,FALSE,183,23,48
+boys,16:26:51,I think love is what I made to your mother.,0.38809523809523800,67,FALSE,160,23,48
+boys,16:26:51,love is just a thing mann,0.378571428571429,67,FALSE,32,23,48
+boys,16:26:51,no comment.  -__-,0.35476190476190500,67,FALSE,147,23,48
+girls,16:29:51,"so, is it the lack of hate which makes you love someone?",0.7398268398268400,83,TRUE,119,24,49
+girls,16:29:51,"well then, what is hate?",0.674458874458875,83,FALSE,12,24,49
+girls,16:29:51,what a boy response...,0.46428571428571400,83,FALSE,176,24,49
+girls,16:29:51,dumb,0.46020408163265300,83,FALSE,163,24,49
+girls,16:29:51,"you are wiser than I thought, boys",0.44217687074829900,83,FALSE,45,24,49
+girls,16:29:51,no comment.  -__-,0.36904761904761900,83,FALSE,82,24,49
+girls,16:29:51,that is a stupid answer,0.35,83,FALSE,87,24,49
+boys,16:32:51,I suppose it is slightly more complicated than that,0.704158936301793,86,TRUE,23,25,50
+boys,16:32:51,"oh girls, it ain't that simple",0.639764996907854,86,FALSE,65,25,50
+boys,16:32:51,it is the lack of hate which allows one to love at all.,0.6198515769944340,86,FALSE,38,25,50
+boys,16:32:51,ehhhhhh,0.425170068027211,86,FALSE,99,25,50
+boys,16:32:51,yep,0.41666666666666700,86,FALSE,72,25,50
+boys,16:32:51,"well, not exactly",0.41326530612244900,86,FALSE,186,25,50
+boys,16:32:51,no comment.  -__-,0.28112244897959200,86,FALSE,3,25,50

@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>A reMesh Conversation</title>
+		<script type="text/javascript" src="d3.js"></script>
+		<style type="text/css">
+            .axis path,
+			.axis line {
+				fill: none;
+				stroke: black;
+                stroke-width: 1;
+				shape-rendering: crispEdges;
+			}
+			.axis text {
+				font-family: sans-serif;
+				font-size: 11px;
+			}
+            .legend text {
+				font-family: sans-serif;
+				font-size: 11px;
+			}
+            .second text {
+				font-family: sans-serif;
+				font-size: 8px;
+                color: #8CC152;
+			}
+            .graph {
+              clip-path: url(#clip);
+            }
+            div.tooltip {   
+              position: absolute;           
+              text-align: center;           
+              width: 120px;                  
+              height: 35px;                 
+              padding: 4px;             
+              font: 10px sans-serif; 
+              color: white;
+              background: #D770AD;   
+              border: 0px;      
+              border-radius: 10px;           
+              pointer-events: none;         
+            } 
+            .brush .extent {
+              stroke: #fff;
+              fill-opacity: .125;
+              shape-rendering: crispEdges;
+            }
+		</style>
+        </head>
+	<body>
+        <script>
+            var margin = {top: 60, right: 60, bottom: 30, left: 250},
+                margin2 = {top: 60, right: 650, bottom: 20, left: 50},
+                margin3 = {top: 60, right: 50, bottom: 20, left: 550},
+                width = 800 - margin.left - margin.right,
+                width2 = 800 - margin2.left - margin2.right,
+                width3 = 1000 - margin3.left - margin3.right,
+                height = 500 - margin.top - margin.bottom,
+                padding = 30;
+            
+            var yScale = d3.scale.linear().range([0, height]);
+            var xScale = d3.scale.linear().range([0, width]);
+            var rScale = d3.scale.linear().range([2,15]);
+            var barScale = d3.scale.linear().range([1,20]);
+            
+            var yScale2 = d3.scale.linear().range([0, height]);
+            var xScale2 = d3.scale.linear().range([0, width2]);
+            var rScale2 = d3.scale.linear().range([0.5,3]);
+            var barScale2 = d3.scale.linear().range([0.5,4]);
+            
+            var xAxis = d3.svg.axis().scale(xScale).orient("top"),
+                yAxis = d3.svg.axis().scale(yScale).orient("left"),
+                yAxis2 = d3.svg.axis().scale(yScale2).orient("left");
+            
+            //define brush for the context portion
+            var brush = d3.svg.brush()
+                .y(yScale2)
+                .on("brush", brushed);
+            
+            var svg = d3.select("body").append("svg")
+                .attr("width", 1200)
+                .attr("height", height + margin.top + margin.bottom);
+            
+            var legend = d3.select("body").append("svg")
+                .attr("width", 1000)
+                .attr("height", 200);
+            
+            //clipping path so data disappear/appear cleanly
+            svg.append("defs").append("clipPath")
+                .attr("id", "clip")
+                .append("rect")
+                .attr("width", 1200)
+                .attr("height", height)
+                .attr("transform", "translate(" + -margin.left + ",0)");
+            
+            //focus = smaller domain, more detail
+            var focus = svg.append("g")
+                .attr("class", "focus")
+                .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+           
+            //context = larger domain
+            var context = svg.append("g")
+                .attr("class", "context")
+                .attr("transform", "translate(" + margin2.left + "," + margin2.top + ")");
+            
+            //define div for tooltip hover which allows user to see text
+            var div = d3.select("body").append("div")   
+                        .attr("class", "tooltip")               
+                        .style("opacity", 0);
+            
+            d3.csv("conversation3.csv", function(data) {
+                dataset = data;
+                yScale.domain([0,12]);
+                xScale.domain([-d3.max(dataset, function(d) {return +d.sTime;}),
+                            d3.max(dataset, function(d) {return +d.sTime;})]);
+                rScale.domain([d3.min(dataset, function(d) {return d.repScore;}), 
+                             d3.max(dataset, function(d) {return d.repScore;})]);
+                barScale.domain([d3.min(dataset, function(d){return d.text.length}),
+                            d3.max(dataset, function(d){return d.text.length})]);
+                yScale2.domain([d3.min(dataset, function(d) {return +d.responseNum;}),
+                            d3.max(dataset, function(d) {return +d.responseNum;})]);
+                xScale2.domain(xScale.domain());
+                rScale2.domain(rScale.domain());
+                barScale2.domain(barScale.domain());
+                
+                //graph text for conversation
+                focus.selectAll("text")
+                        .data(dataset)
+                        .enter()
+                        .append("text")
+                        .attr("class", "graph text")
+                        .attr("x", 550)
+                        .attr("y", function(d) {return yScale(d.responseNum);})
+                        .attr("text-anchor", "right")
+                        .text( function (d) { return d.text; })
+                        .attr("opacity", function(d){
+                            if (d.isWinner == "TRUE") {
+                                return 1;
+                            }
+                            else { return 0;}
+                        })
+                        .attr("font-family", "sans-serif")
+                        .attr("font-size", "11px")
+                        .attr("fill", function(d){
+                            if (d.sender == "girls") {
+                                return "#3BAFDA";
+                                }
+                            else {
+                                return "#FCBB42";
+                            }
+                        });
+                
+                //create data points for focus graph
+                focus.selectAll("circle")
+                        .data(dataset)
+                        .enter()
+                        .append("circle")
+                        .attr("class", "graph")
+                        .attr("cy", function(d) {return yScale(d.responseNum);})
+                        .attr("cx", function(d) {
+                            if (d.sender == "boys") {
+                                return -padding + xScale(-d.sTime);
+                                }
+                            else {
+                                return padding + xScale(d.sTime);
+                            };})
+                        .attr("fill", function(d){
+                            if (d.isWinner == "TRUE") {
+                                return "#D770AD";
+                            }
+                            else if (d.sender == "boys") {
+                                return "#FCBB42";
+                                }
+                            else {
+                                return "#3BAFDA";
+                            };
+                        })
+                        .attr("opacity", function(d){
+                        if (d.isWinner == "TRUE"){
+                            return 1;
+                        }
+                        else {return 0.5;}
+                        })
+                        .attr("r", function(d) {return rScale(d.repScore);})
+                        //.attr("opacity", 0)
+                        .on("mouseover", function(d) {
+                        d3.select(this).attr("fill", "#8CC152");
+                        div.transition()        
+                            .duration(200)      
+                            .style("opacity", .7);      
+                        div.html(d.text)  
+                            .style("left", (d3.event.pageX) + "px")     
+                            .style("top", (d3.event.pageY - 28) + "px");    
+                        })                  
+                        .on("mouseout", function(d) {
+                        d3.select(this).attr("fill", function(d){
+                            if (d.isWinner == "TRUE") {
+                                return "#D770AD";
+                            }
+                            else if (d.sender == "boys") {
+                                return "#FCBB42";
+                                }
+                            else {
+                                return "#3BAFDA";
+                            };
+                        });
+                            div.transition()        
+                                .duration(500)      
+                                .style("opacity", 0);   
+                        });
+                //create lines for focus graph
+                focus.selectAll("path")
+                        .data(dataset)
+                        .enter()
+                        .append("path")
+                        .attr("class", "graph path")
+                        .attr("d", function(d) {
+                            var source, target;
+                            if (d.sender == "boys"){
+                                source = [-padding + xScale(-d.sTime),
+                                          yScale(d.responseNum)-barScale(+d.text.length)];
+                                target = [-padding + xScale(-d.sTime),
+                                         yScale(d.responseNum)+barScale(+d.text.length)];
+                            }
+                            else{
+                                source = [padding + xScale(d.sTime),
+                                          yScale(d.responseNum)-barScale(+d.text.length)];
+                                target = [padding + xScale(d.sTime),
+                                         yScale(d.responseNum)+barScale(+d.text.length)];
+                            }
+                            return "M "+ source[0] + " , " + source[1] + " L " + target[0] +" , "+ target[1];
+                          })
+                        .attr("stroke-width", 2)
+                        .attr("stroke", "#8CC152")
+                        .attr("opacity", 1);
+                
+                //create x axis
+                focus.append("g")
+				.attr("class", "x axis")
+                .attr("transform", "translate(0,-20)")
+				.call(xAxis)
+                .append("text")
+                    .attr("x", width/2+55)
+                    .attr("y", -35)
+                    .attr("dy", ".71em")
+                    .style("text-anchor", "end")
+                    .text("<- TIME (in seconds) ->");
+                //create y axis
+    			focus.append("g")
+                .attr("class", "y axis")
+				.attr("transform", "translate(" + width/2 + ",0)")
+				.call(yAxis)
+                .append("text")
+                    .attr("transform", "rotate(-90)")
+                    .attr("y", 7)
+                    .attr("x", 0)
+                    .attr("dy", ".71em")
+                    .style("text-anchor", "end")
+                    .text("COMMENT #");
+                
+                //create data points for context graph
+                context.selectAll("circle")
+                        .data(dataset)
+                        .enter()
+                        .append("circle")
+                        .attr("cy", function(d) {return yScale2(d.responseNum);})
+                        .attr("cx", function(d) {
+                            if (d.sender == "boys") {
+                                return -padding/2 + xScale2(-d.sTime);
+                                }
+                            else {
+                                return padding/2 + xScale2(d.sTime);
+                            };})
+                        .attr("fill", function(d){
+                            if (d.isWinner == "TRUE") {
+                                return "#D770AD";
+                            }
+                            else if (d.sender == "boys") {
+                                return "#FCBB42";
+                                }
+                            else {
+                                return "#3BAFDA";
+                            };
+                        })
+                        .attr("opacity", function(d){
+                        if (d.isWinner == "TRUE"){
+                            return 1;
+                        }
+                        else {return 0.5;}
+                        })
+                        .attr("r", function(d) {return rScale2(d.repScore);})
+                        .on("mouseover", function(d) {
+                        d3.select(this).attr("fill", "#8CC152");
+                        div.transition()        
+                            .duration(200)      
+                            .style("opacity", .7);      
+                        div.html(d.text)  
+                            .style("left", (d3.event.pageX) + "px")     
+                            .style("top", (d3.event.pageY - 28) + "px");    
+                        })                  
+                        .on("mouseout", function(d) {
+                        d3.select(this).attr("fill", function(d){
+                            if (d.isWinner == "TRUE") {
+                                return "#D770AD";
+                            }
+                            else if (d.sender == "boys") {
+                                return "#FCBB42";
+                                }
+                            else {
+                                return "#3BAFDA";
+                            };
+                        });
+                            div.transition()        
+                                .duration(500)      
+                                .style("opacity", 0);   
+                        });
+                //create lines for context graph
+                context.selectAll("path")
+                        .data(dataset)
+                        .enter()
+                        .append("path")
+                        .attr("d", function(d) {
+                            var source, target;
+                            if (d.sender == "boys"){
+                                source = [-padding/2 + xScale2(-d.sTime),
+                                          yScale2(d.responseNum)-barScale2(d.text.length)];
+                                target = [-padding/2 + xScale2(-d.sTime),
+                                         yScale2(d.responseNum)+barScale2(d.text.length)];
+                            }
+                            else{
+                                source = [padding/2 + xScale2(d.sTime),
+                                          yScale2(d.responseNum)-barScale2(d.text.length)];
+                                target = [padding/2 + xScale2(d.sTime),
+                                         yScale2(d.responseNum)+barScale2(d.text.length)];
+                            }
+                            return "M "+ source[0] + " , " + source[1] + " L " + target[0] +" , "+ target[1];
+                          })
+                        .attr("stroke-width", 0.5)
+                        .attr("stroke", "#8CC152")
+                        .attr("opacity", 1);
+                
+                //create y-axis for context graph
+    			context.append("g")
+                .attr("class", "y axis second")
+				.attr("transform", "translate(" + (7 + width2/2) + ",0)")
+				.call(yAxis2);
+                
+                //create brush for context
+                context.append("g")
+                .attr("class", "y brush")
+                .call(brush)
+                .selectAll("rect")
+                .attr("x", -20)
+                .attr("width", width2 + 40);
+                
+                //create legend
+                legend.append("circle")
+                .attr("r", 15)
+                .attr("fill", "#D770AD")
+                .attr("cx", 40)
+                .attr("cy", 20);
+                legend.append("text")
+                .attr("x", 60)
+                .attr("y", 18)
+                .attr("dy", ".71em")
+                .style("text-anchor", "left")
+                .attr("font-family", "sans-serif")
+                .attr("font-size", "11px")
+                .text("Winning Comment");
+                legend.append("circle")
+                .attr("r", 15)
+                .attr("fill", "#FCBB42")
+                .attr("cx", 200)
+                .attr("cy", 20)
+                .attr("opacity", 0.5);
+                legend.append("text")
+                .attr("x", 220)
+                .attr("y", 18)
+                .attr("dy", ".71em")
+                .style("text-anchor", "left")
+                .attr("font-family", "sans-serif")
+                .attr("font-size", "11px")
+                .text("Side A: Girls");
+                legend.append("circle")
+                .attr("r", 15)
+                .attr("fill", "#3BAFDA")
+                .attr("cx", 360)
+                .attr("cy", 20)
+                .attr("opacity", 0.5);
+                legend.append("text")
+                .attr("x", 380)
+                .attr("y", 18)
+                .attr("dy", ".71em")
+                .style("text-anchor", "left")
+                .attr("font-family", "sans-serif")
+                .attr("font-size", "11px")
+                .text("Side B: Boys");
+                legend.append("path")
+                .attr("d", "M "+ 500 + " , " + 8 + " L " + 500 +" , "+ 38)
+                .attr("stroke-width", 2)
+                .attr("stroke", "#8CC152");
+                legend.append("text")
+                .attr("x", 510)
+                .attr("y", 18)
+                .attr("dy", ".71em")
+                .style("text-anchor", "left")
+                .attr("font-family", "sans-serif")
+                .attr("font-size", "11px")
+                .text("Length of Comment");
+                })
+            
+            function brushed() {
+                yScale.domain(brush.empty() ? yScale2.domain() : brush.extent());
+                
+                focus.selectAll("circle")
+                        .transition()
+                        .attr("cy", function(d) {
+                              return yScale(d.responseNum);
+                          })
+                        .attr("cx", function(d) {
+                            if (d.sender == "boys") {
+                                return -padding + xScale(-d.sTime);
+                                }
+                            else {
+                                return padding + xScale(d.sTime);
+                            };})
+                
+                focus.selectAll(".graph.path")
+                        .transition()
+                        .attr("d", function(d) {
+                            var source, target;
+                            var word = d.text;
+                            if(word != undefined){
+                                var len = word.length
+                                if (d.sender == "boys"){
+                                    source = [-padding + xScale(-d.sTime),
+                                              yScale(d.responseNum)-barScale(len)];
+                                    target = [-padding + xScale(-d.sTime),
+                                             yScale(d.responseNum)+barScale(len)];
+                                }
+                                else{
+                                    source = [padding + xScale(d.sTime),
+                                              yScale(d.responseNum)-barScale(len)];
+                                    target = [padding + xScale(d.sTime),
+                                             yScale(d.responseNum)+barScale(len)];
+                                }
+                                return "M "+ source[0] + " , " + source[1] + " L " + target[0] +" , "+ target[1];
+                            }
+                          });
+                 
+                focus.select(".y.axis").call(yAxis);
+                focus.selectAll(".graph.text")
+                        .transition()
+                        .attr("y", function(d) {
+                            var rep = d.responseNum;
+                            if (rep != undefined){
+                                return yScale(rep);
+                            }
+                            else {
+                                return 10000;
+                            };
+                        });
+            }
+           
+                
+                
+            
+            
+        </script>
+    </body>
