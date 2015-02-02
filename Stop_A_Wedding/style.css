@@ -1,11 +1,9 @@
 img {
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
 }
 
-.container {
-	width: 400 px;
+div.container {
+	width: 200 px;
 	margin: 0 auto;
 }
 
