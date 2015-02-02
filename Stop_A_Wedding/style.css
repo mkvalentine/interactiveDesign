@@ -1,3 +1,7 @@
+body {
+	background: #00CCFF;
+}
+
 img {
 	display: block;
 	width: 400px;
@@ -10,7 +14,7 @@ img {
 }
 
 h1 {
-	font-family: "Dancing Script", Script;
+	font-family: "Dancing Script", cursive;
 	font-size: 60px;
 	color: #FFFFFF;
 }
