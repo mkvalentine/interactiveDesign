@@ -1,3 +1,7 @@
+body {
+	background: #00CCFF;
+}
+
 img {
 	display: block;
 	width: 400px;
@@ -7,5 +11,11 @@ img {
 .container {
 	width: 600px;
 	margin: 0 auto;
+}
+
+h1 {
+	font-family: "Dancing Script", Script;
+	font-size: 60px;
+	color: #FFFFFF;
 }
 
