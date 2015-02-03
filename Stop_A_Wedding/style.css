@@ -36,6 +36,7 @@ h1 {
 h2 {
 	font-family: "Amatic SC", Univers, sans-serif;
 	font-size: 30px;
+	letter-spacing: 2px;
 	color: #FFFFFF;
 	text-transform: uppercase;
 	text-align: left;
@@ -45,6 +46,10 @@ h2 {
 strong {
 	font-weight: bolder;
 	color: #4FC1E9;
+}
+
+.summary {
+	font-style: italic;
 }
 
 a:link {
