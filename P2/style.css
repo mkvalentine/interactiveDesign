@@ -1,0 +1,1307 @@
+
+/*STYLE ONE: based on http://ecc.co.nz/*/
+
+body.one header {
+  float: right;
+  width: auto;
+  display: block;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  text-transform: uppercase;
+  margin-right: 18px;
+  overflow: hidden;
+  position: relative;
+}
+
+
+body.one nav {
+  clear: right;
+  width: 0 auto;
+  margin-left: 30px;
+  font-size: 70px;
+  line-height: 70px;
+  letter-spacing: 0px;
+  font-family:  font-family: Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  zoom: 1;
+  color: #111;
+
+  border-left-color: rgb(204, 204, 204);
+  border-left-style: solid;
+  border-left-width: 1px;
+  display: block;
+  padding-bottom: 1px;
+  padding-left: 14px;
+  padding-right: 40px;
+  padding-top: 40px;
+}
+
+body.one div.text {
+  color: rgb(17, 17, 17);
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  height: 987px;
+  line-height: 20px;
+  margin-left: 100px;
+  margin-right: 0px;
+  margin-bottom: 40px;
+  padding-bottom: 160px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  max-width: 480px;
+  zoom: 1;
+  display: inline-block;
+}
+
+body.one footer {
+  display: block;
+  border-top-color: rgb(17, 17, 17);
+  border-top-style: solid;
+  border-top-width: 10px;
+  color: rgb(17, 17, 17);
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  height: 155px;
+  line-height: 14px;
+  width: auto;
+  zoom: 1;
+  padding-bottom: 1px;
+  padding-right: 30px;
+  padding-top: 5px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+body.one div.bottom-link {
+  text-align: right;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: Helvetica,Arial,sans-serif;
+  padding-right: 30px;
+  padding-top: 20px;
+}
+
+body.one a:link {
+  color: #111;
+  text-decoration: none;
+}
+
+body.one a:visited {
+  color: #111;
+  text-decoration: none;
+}
+
+body.one a:hover {
+  color: #ff0000;
+  text-decoration: none
+}
+
+/* STYLE TWO: based on http://www.whoanellycatering.com*/
+
+body.two nav {
+  margin: 0 auto;
+  top: 0px;
+  width: 100%;
+  min-height: 40px;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  background: #000;
+  position: fixed;
+  padding-top: 10px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  text-transform: uppercase;
+}
+
+body.two nav a {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+body.two a:link {
+  color: #FFF;
+  text-decoration: none;
+}
+
+body.two a:visited {
+  color: #FFF;
+  text-decoration: none;
+}
+
+body.two a:hover {
+  color: #FA9A50;
+  text-decoration: none;
+}
+
+body.two header {
+  margin: 0 auto;
+  padding-top: 20px;
+  min-height: 400px;
+  width: auto;
+  text-align: center;
+}
+
+body.two div.clip {
+  overflow: hidden;
+  height: 200px;
+  width: auto;
+  display: block;
+}
+
+body.two header img {
+  width: 100%;
+}
+
+body.two h1 {
+  font-family: 'Codystar', sans-serif;
+  font-size: 60px;
+}
+
+body.two div.text {
+  font-family: 'Libre Baskerville', sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  max-width: 450px;
+  margin: 0 auto;
+  display: block;
+}
+
+body.two footer {
+  font-family: 'Libre Baskerville', sans-serif;
+  font-size: 10px;
+  width: auto;
+  text-align: center;
+  display: inline;
+}
+
+/*STYLE THREE: based on http://www.theblacksparrow.co.nz/*/
+
+body.three {
+  background: url(images/type.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body.three nav {
+position: fixed;
+width: 100%;
+top: 0px;
+padding-top: 30px;
+text-align: center;
+display: block;
+border-bottom: 1px solid #000;
+height: 50px;
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+text-transform: uppercase;
+font-size: 18px;
+}
+
+body.three nav a {
+  padding-left: 20px;
+  padding-right: 20px;
+  letter-spacing: 3px;
+}
+
+
+body.three header {
+  display: block;
+  margin-top: 50px;
+  min-height: 50px;
+}
+
+body.three div.text {
+  font-family: 'Cutive Mono', monospace;
+  color: #000;
+  position: float;
+  text-align: left;
+  margin-left: 60px;
+  max-width: 600px;
+  background: url(images/laid.jpg);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+body.three a:link {
+  color: #FFF;
+  text-decoration: none;
+}
+
+body.three a:visited {
+  color: #FFF;
+  text-decoration: none;
+}
+
+body.three a:hover {
+  color: #000;
+  text-decoration: none
+}
+
+body.three div.bottom-link {
+  position: float;
+  margin-left: 60px;
+  margin-top: 20px;
+  height: 40px;
+  width: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+body.three footer h3 {
+  font-family: 'Cutive Mono', monospace;
+  text-transform: uppercase;
+  font-size: 18px;
+  position: float;
+  margin-left: 60px;
+  margin-top: 20px;
+  color: #000;
+  text-align: left;
+  max-width: 600px;
+  background: url(images/laid.jpg);
+}
+
+body.three footer h4 {
+  font-family: 'Cutive Mono', monospace;
+  text-transform: uppercase;
+  font-size: 18px;
+  position: float;
+  margin-left: 60px;
+  margin-top: 20px;
+  color: #000;
+  text-align: left;
+  max-width: 600px;
+  background: url(images/laid.jpg);
+}
+
+/*STYLE FOUR: based on http://pixelrecess.com/*/
+
+body.four nav {
+background-color: rgb(0, 145, 210);
+color: rgb(51, 51, 51);
+text-transform: uppercase;
+font-size: 16px;
+font-style: normal;
+font-weight: normal;
+height: 445px;
+line-height: 20px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+padding-bottom: 5px;
+padding-left: 3px;
+padding-right: 3px;
+padding-top: 10px;
+text-align: center;
+vertical-align: baseline;
+width: 120px;
+top:0;
+position: fixed;
+}
+
+body.four a:link {
+  color: rgb(0, 185, 250);
+  text-decoration: none;
+}
+
+body.four a:visited {
+  color: rgb(0, 185, 250);
+  text-decoration: none;
+}
+
+body.four a:hover {
+  color: #FFF;
+  text-decoration: none
+}
+
+body.four nav a {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  letter-spacing: 1px;
+  display: block;
+}
+
+body.four {
+  background-color: rgb(255, 240, 75);
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body.four header {
+  margin-left: 120px;
+  padding-left: 30px;
+  max-width: 600px;
+  color: rgb(250, 180, 15);
+  font-family: 'Share Tech Mono', sans-serif;
+  font-weight: bold;
+}
+
+body.four div.text {
+  margin-left: 120px;
+  padding-left: 30px;
+  max-width: 600px;
+  color: rgb(0, 145, 210);
+  font-weight: normal;
+}
+
+body.four footer {
+  margin-left: 120px;
+  padding-left: 30px;
+  max-width: 600px;
+  color: rgb(250, 180, 15);
+  padding-top: 30px;
+}
+
+body.four footer h4 {
+  color: rgb(250, 180, 15);
+  font-family: 'Share Tech Mono', sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+/* STYLE FIVE: based on http://www.bloomberg.com/news/articles/2015-02-06/-sell-treasuries-cry-heard-across-wall-street-stunned-by-jobs*/
+
+
+body.five nav {
+  margin: 0 auto;
+  top: 0px;
+  width: 100%;
+  min-height: 80px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  background: #FFF;
+  position: fixed;
+  padding-top: 25px;
+  padding-left: 20px;
+  text-align: left;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  border-top-style: solid;
+  border-top-width: 10px;
+  border-top-color: #000;
+}
+
+body.five nav a {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+body.five a:link {
+  color: #000;
+  text-decoration: none;
+}
+
+body.five a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+body.five a:hover {
+  color: #2800D6;
+  text-decoration: none;
+}
+
+
+body.five span.highlight {
+  background-color: #FFF;
+}
+
+body.five header {
+  margin-top: 80px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  height: 300px;
+  background: url("images/blue.jpg"); no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: block;
+  -webkit-font-smoothing: antialiased;
+}
+
+body.five header h1 {
+  padding-left: 40px;
+  padding-top: 130px;
+  font-size: 80px;
+}
+
+body.five div.text {
+  margin-top: 100px;
+  margin-left: 80px;
+  max-width: 650px;
+  -webkit-font-smoothing: antialiased;
+  font-family: Georgia, sans-serif;
+  font-size: 14px;
+  line-height: 1.5em;
+  margin-bottom: 40px;
+}
+
+body.five footer {
+  margin: 0 auto;
+  width: 100%;
+  min-height: 80px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  background: #FFF;
+  padding-top: 25px;
+  padding-left: 20px;
+  text-align: left;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  border-top-style: solid;
+  border-top-width: 10px;
+  border-top-color: #000;
+}
+
+body.five footer h4 {
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* STYLE SIX: based on http://www.erraticwisdom.com/*/
+body.six {
+  background: url(images/dot3.jpg); no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+body.six nav {
+  background-color: #000;
+  color: rgb(51, 51, 51);
+  text-transform: uppercase;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  height: 800px;
+  line-height: 20px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  padding-bottom: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 10px;
+  text-align: left;
+  vertical-align: baseline;
+  width: 60px;
+  top:0;
+  position: fixed;
+  white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+  white-space: -webkit-pre-wrap; /*Chrome & Safari */ 
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  white-space: pre-wrap;       /* css-3 */
+  word-wrap: break-word;       /* Internet Explorer 5.5+ */
+  word-break: break-all;
+  white-space: normal;
+  letter-spacing: 7px;
+}
+
+body.six a:link {
+  color: #FFF;
+  text-decoration: none;
+}
+
+body.six a:visited {
+  color: #FFF;
+  text-decoration: none;
+}
+
+body.six a:hover {
+  color: #FFF600;
+  text-decoration: none;
+}
+
+body.six header {
+  font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  top:30;
+  margin-top: 100;
+  margin-left: 100px;
+  max-width: 700px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: rgba(255,255,255,0.8);
+}
+
+body.six header span.yellow{
+  color: #FFF600;
+}
+
+body.six div.text {
+  font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 100px;
+  max-width: 700px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: rgba(255,255,255,0.8);
+}
+
+body.six footer {
+  font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 100px;
+  max-width: 700px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: rgba(255, 246, 0,0.8);
+  text-align: right;
+  color: #000;
+}
+
+/*STYLE SEVEN: based on http://www.newyorker.com/news/john-cassidy/strong-job-figures-leave-republicans-pickle*/
+
+body.seven nav {
+  margin: 0 auto;
+  top: 0px;
+  width: 100%;
+  min-height: 80px;
+  font-family: 'Helvetica Neue', Helvetica, Segoe, 'Segoe UI', 'Segoe WP', Calibri, Arial, clean, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+  background: #FFF;
+  position: fixed;
+  padding-top: 25px;
+  padding-left: 20px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  border-bottom-style: shadow;
+  border-bottom-width: 1px;
+  border-bottom-color: #000;
+  box-shadow: 5px 5px 5px #d3d3d3;
+}
+
+body.seven nav a {
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+body.seven a:link {
+  color: #000;
+  text-decoration: none;
+}
+
+body.seven a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+body.seven a:hover {
+  color: #000;
+  text-decoration: none;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000;
+  border-radius: 5px;
+}
+
+body.seven header {
+  margin-top: 100px;
+  margin-left: 25px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #000;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #000;
+}
+
+body.seven h1 {
+  font-family: 'Limelight', sans-serif;
+  font-size: 40px;
+  line-height: 30px;
+}
+
+body.seven h4{
+  font-family: 'Helvetica Neue', Helvetica, Segoe, 'Segoe UI', 'Segoe WP', Calibri, Arial, clean, sans-serif;
+  font-size: 15px;
+  line-height: 10px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+body.seven div.text {
+  margin-top: 15px;
+  margin-left: 25px;
+  max-width: 550px;
+  font-family: 'Trocchi', Georgia, serif;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+body.seven div.text p:first-child:first-letter { 
+  float: left; 
+  color: #000; 
+  font-size: 75px; 
+  line-height: 60px; 
+  padding-top: 4px; 
+  padding-right: 8px; 
+  padding-left: 3px; 
+  font-family: 'Helvetica Neue', Helvetica, Segoe, 'Segoe UI', 'Segoe WP', Calibri, Arial, clean, sans-serif;
+}
+
+/*STYLE EIGHT: based on https://beautifulbizarre.net/2015/02/07/ekundayo-sorrow-becomes-joy/*/
+
+body.eight {
+  background: url(images/wind.jpg); no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+body.eight nav {
+  margin: 0 auto;
+  top: 0px;
+  width: 100%;
+  min-height: 40px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+  background: #000;
+  color: #FFF;
+  position: fixed;
+  padding-top: 10px;
+  padding-left: 10px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  box-shadow: 5px 5px 5px #545454;
+}
+
+body.eight nav a {
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+body.eight a:link {
+  color: #FFF;
+  text-decoration: none;
+}
+
+body.eight a:visited {
+  color: #FFF;
+  text-decoration: none;
+}
+
+body.eight a:hover {
+  color: #FFF;
+  text-decoration: none;
+  background-color: #FF0051;
+}
+
+body.eight header {
+  margin: 0 auto;
+  margin-top: 40px;
+  max-width: 650px;
+  text-align: right;
+  font-family: "Nixie One", monospace;
+  font-weight: normal;
+  background-color: #FFF;
+  padding: 10px 30px 30px 30px;
+}
+
+body.eight header h1 {
+  font-size: 80px;
+}
+
+body.eight header h4 {
+  font-size: 16px;
+}
+
+body.eight div.text {
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  max-width: 650px;
+  text-align: left;
+  font-family: "Raleway", sans-serif;
+  font-weight: normal;
+  background-color: #FFF;
+  padding: 30px;
+}
+
+/*STYLE NINE: based on http://superherojs.com/*/
+
+body.nine {
+  background-color: #2C86CB;
+}
+
+body.nine nav {
+  margin: 0 auto;
+  bottom: 0px;
+  width: 100%;
+  min-height: 40px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+  background: #be2826;
+  color: #FFF;
+  position: fixed;
+  padding-top: 10px;
+  padding-left: 10px;
+  text-align: left;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body.nine nav a {
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+body.nine a:link {
+  color: #FFF;
+  text-decoration: none;
+}
+
+body.nine a:visited {
+  color: #FFF;
+  text-decoration: none;
+}
+
+body.nine a:hover {
+  color: #BBE5F9;
+  text-decoration: none;
+}
+
+body.nine header {
+  background: url(images/bang.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 600px;
+  font-family: 'Bangers', sans-serif;
+  color: #FFF;
+  padding-left: 20px;
+}
+
+body.nine header h1 {
+  font-size: 80px;
+  -webkit-text-stroke: 2px #000;
+}
+
+body.nine header h4 {
+  font-size: 40px;
+  -webkit-text-stroke: 1px #000;
+}
+
+body.nine div.text {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-right: 80px;
+  margin-left: auto;
+  max-width: 500px;
+  color: #000;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 30px;
+  background: #FFFF00;
+}
+
+/*STYLE TEN: based on http://www.melanie-f.com/en/*/
+body.ten {
+  background: url(images/pattern3.jpg); fixed;
+}
+
+body.ten header {
+  background-color: rgba(73, 221, 199, 0.5);
+  margin: 0 auto;
+  text-align: center;
+  max-width: 600px;
+  max-height: 200px;
+  font-family: 'Megrim', sans-serif;
+}
+
+body.ten header h1 {
+  padding-top: 50px;
+  font-size: 80px;
+}
+
+body.ten header h4 {
+  font-size: 20px;
+}
+
+body.ten nav {
+  margin: 0 auto;
+  bottom: 0px;
+  width: 100%;
+  min-height: 40px;
+  font-family: 'Megrim', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+  background-color: rgba(73, 221, 199, 0.5);
+  color: #FFF;
+  position: fixed;
+  padding-top: 10px;
+  padding-left: 10px;
+  text-align: left;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body.ten nav a {
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+body.ten a:link {
+  color: #FFF;
+  text-decoration: none;
+}
+
+body.ten a:visited {
+  color: #FFF;
+  text-decoration: none;
+}
+
+body.ten a:hover {
+  color: #BBE5F9;
+  text-decoration: none;
+}
+
+body.ten div.text {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 400px;
+  margin-bottom: 80px;
+  padding: 30px;
+  background-color: rgba(255, 255, 355, 0.8);
+  color: #000;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: normal;
+}
+
+/*STYLE ELEVEN: based on http://www.tech-cemetery.com/*/
+
+body.eleven header {
+  background: url(images/landscape.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px;
+  color: #FFF;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 5px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+body.eleven header h1 {
+  font-family: 'Plaster', sans-serif;
+  font-size: 80px;
+}
+
+body.eleven header h4 {
+  font-family: 'Amatic SC', sans-serif;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+body.eleven nav {
+  margin: 0 auto;
+  bottom: 0px;
+  width: 100%;
+  min-height: 40px;
+  font-family: 'Amatic SC', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+  background-color: #BBCB94;
+  color: #FFF;
+  position: fixed;
+  padding-top: 8px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body.eleven nav a {
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+body.eleven a:link {
+  color: #FFF;
+  text-decoration: none;
+}
+
+body.eleven a:visited {
+  color: #FFF;
+  text-decoration: none;
+}
+
+body.eleven a:hover {
+  color: #72968B;
+  text-decoration: none;
+}
+
+body.eleven div.text {
+  max-width: 600px;
+  text-align: left;
+  font-family: 'Amatic SC', sans-serif;
+  font-weight: normal;
+  font-size: 22px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+/*STYLE TWELVE: based on http://pioneers.brancottestate.com/*/
+body.twelve {
+  background: url(images/chalk.jpg); no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+body.twelve nav {
+  margin: 0 auto;
+  bottom: 0px;
+  width: 100%;
+  height: 60px;
+  font-family: 'Dawning of a New Day', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: lowercase;
+  background-color: #000;
+  color: #FFF;
+  position: fixed;
+  padding-top: 5px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body.twelve nav a {
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+body.twelve a:link {
+  color: #FFF;
+  text-decoration: none;
+}
+
+body.twelve a:visited {
+  color: #FFF;
+  text-decoration: none;
+}
+
+body.twelve a:hover {
+  color: #72968B;
+  text-decoration: none;
+}
+
+body.twelve header {
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
+  color: #FFF;
+  opacity: 0.9;
+}
+
+body.twelve header h1{
+  font-family: 'Lobster', sans-serif;
+  font-size: 50px;
+}
+
+body.twelve header h4 {
+  font-family: 'Abril Fatface', sans-serif;
+  font-size: 25px;
+  text-align: justify;
+}
+
+body.twelve div.text {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: justify;
+  font-family: 'Special Elite', monospace;
+  margin-bottom: 80px;
+  color: #FFF;
+}
+
+/*STYLE THIRTEEN: based on http://www.guillaumejuvenet.com/#thanks*/
+body.thirteen {
+  background: url(images/birdpole.svg); no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+body.thirteen nav {
+  margin: 0 auto;
+  top: 0px;
+  width: 100%;
+  height: 40px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  background-color: #FFF;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #000;
+  color: #FFF;
+  position: fixed;
+  padding-top: 8px;
+  text-align: left;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body.thirteen nav a {
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+body.thirteen a:link {
+  color: #000;
+  text-decoration: none;
+}
+
+body.thirteen a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+body.thirteen a:hover {
+  color: #d3d3d3;
+  text-decoration: none;
+}
+
+body.thirteen header {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  max-width: 500px;
+  margin-right: 60px;
+  margin-left: auto;
+  margin-top: 60px;
+  text-align: right;
+  color: #d3d3d3;
+}
+
+body.thirteen div.text {
+  font-family: monospace;
+  font-weight: normal;
+  max-width: 500px;
+  margin-right: 40px;
+  margin-left: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: left;
+  background: rgba(211, 211, 211, 0.7);
+  border-radius: 10px;
+  padding: 30px;
+}
+
+/*STYLE FOURTEEN: based on http://www.vicomtefont.com/*/
+
+body.fourteen {
+  background: url(images/black2.jpg); no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+body.fourteen nav {
+  margin: 0 auto;
+  bottom: 0px;
+  width: 100%;
+  height: 40px;
+  font-family: 'Playfair Display SC', serif;
+  font-weight: normal;
+  font-size: 16px;
+  background-color: #000;
+  position: fixed;
+  padding-top: 8px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body.fourteen nav a {
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+body.fourteen a:link {
+  color: #292929;
+  text-decoration: none;
+}
+
+body.fourteen a:visited {
+  color: #292929;
+  text-decoration: none;
+}
+
+body.fourteen a:hover {
+  color: #fffdd0;
+  text-decoration: none;
+}
+
+body.fourteen header {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Tangerine', serif;
+  color: #fffdd0;
+}
+
+body.fourteen header h1 {
+  font-size: 90px;
+}
+
+body.fourteen header h4 {
+  font-size: 90px;
+}
+
+body.fourteen div.text {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Tangerine', serif;
+  color: #fffdd0;
+  font-size: 50px;
+  margin-bottom: 80px;
+}
+
+/*STYLE FIFTEEN: based on http://www.designzoom.in/ #FF51AA #4BB9D2 #FFE51E #464646 */
+body.fifteen nav {
+  margin: 0 auto;
+  bottom: 0px;
+  width: 100%;
+  height: 40px;
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  background-color: #000;
+  position: fixed;
+  padding-top: 8px;
+  text-align: right;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body.fifteen nav a {
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+body.fifteen a:link {
+  color: #FFF;
+  text-decoration: none;
+}
+
+body.fifteen a:visited {
+  color: #FFF;
+  text-decoration: none;
+}
+
+body.fifteen a:hover {
+  color: #FFE51E;
+  text-decoration: none;
+}
+
+body.fifteen header {
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  text-align: left;
+}
+
+body.fifteen header h1 {
+  font-size: 150px;
+  color: #464646;
+  letter-spacing: -8px;
+  line-height: 0.7em;
+}
+
+body.fifteen header h1 span.pink {
+  color: #FF51AA;
+}
+
+body.fifteen header h1 span.blue {
+  color: #4BB9D2;
+}
+
+body.fifteen header h1 span.yellow {
+  color: #FFE51E;
+}
+
