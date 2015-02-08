@@ -1143,7 +1143,7 @@ body.thirteen header {
   max-width: 500px;
   margin-right: 60px;
   margin-left: auto;
-  margin-top: 60px;
+  margin-top: 100px;
   text-align: right;
   color: #d3d3d3;
 }
@@ -1238,7 +1238,7 @@ body.fourteen div.text {
   margin-bottom: 80px;
 }
 
-/*STYLE FIFTEEN: based on http://www.designzoom.in/ #FF51AA #4BB9D2 #FFE51E #464646 */
+/*STYLE FIFTEEN: based on http://www.designzoom.in/ */
 body.fifteen nav {
   margin: 0 auto;
   bottom: 0px;
@@ -1247,10 +1247,11 @@ body.fifteen nav {
   font-family: 'Lato', sans-serif;
   font-weight: normal;
   font-size: 16px;
-  background-color: #000;
+  background-color: #464646;
   position: fixed;
   padding-top: 8px;
   text-align: right;
+  padding-right: 30px;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
@@ -1274,16 +1275,23 @@ body.fifteen a:visited {
 }
 
 body.fifteen a:hover {
-  color: #FFE51E;
+  color: #4BB9D2;
   text-decoration: none;
 }
 
 body.fifteen header {
   max-width: 900px;
-  margin: 0 auto;
+  margin: 100px;
   font-family: 'Lato', sans-serif;
   font-weight: bold;
   text-align: left;
+}
+
+body.fifteen header h1 {
+  font-size: 150px;
+  color: #464646;
+  letter-spacing: -8px;
+  line-height: 0.7em;
 }
 
 body.fifteen header h1 {
@@ -1304,4 +1312,96 @@ body.fifteen header h1 span.blue {
 body.fifteen header h1 span.yellow {
   color: #FFE51E;
 }
+
+body.fifteen footer{
+  font-size: 150px;
+  color: #464646;
+  letter-spacing: -8px;
+  line-height: 0.7em;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  text-align: right;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+body.fifteen footer span.pink {
+  color: #FF51AA;
+}
+
+body.fifteen footer span.blue {
+  color: #4BB9D2;
+}
+
+body.fifteen footer span.yellow {
+  color: #FFE51E;
+}
+
+body.fifteen div.text {
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  max-width: 600px;
+  text-align: left;
+  margin-left: 100px;
+  margin-bottom: 150px;
+
+}
+
+/*INDEX STYLE*/
+body.index {
+  background: #DA4453;
+  
+}
+body.index h1 {
+  font-family: "Trade Gothic Condensed", Univers, sans-serif;
+  text-transform: uppercase;
+  font-size: 60px;
+  color: #FFFFFF;
+  max-width: 700px;
+  margin-left: 40px;
+}
+
+body.index h2 {
+  font-family: "Trade Gothic Condensed", Univers, sans-serif;
+  text-transform: uppercase;
+  font-size: 60px;
+  color: #FFFFFF;
+  max-width: 700px;
+  margin-left: 40px;
+}
+
+body.index div.list {
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+
+body.index li {
+  font-family: Courier, sans-serif;
+  color: #FFFFFF;
+  font-size: 24px;
+}
+
+body.index a:link {
+    color: #FFFFFF;
+}
+
+body.index a:visited {
+    color: #4FC1E9;
+}
+
+body.index a:hover {
+    color: #A0D468;
+}
+
+body.index a:active {
+    color: #4FC1E9;
+}
+
+
+
+
+
 
