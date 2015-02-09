@@ -1353,6 +1353,7 @@ body.fifteen div.text {
 /*INDEX STYLE*/
 body.index {
   background: #37BC9B;
+  margin-left: 40px;
   
 }
 body.index h1 {
@@ -1370,11 +1371,9 @@ body.index h2 {
   font-size: 60px;
   color: #FFFFFF;
   max-width: 700px;
-  margin-left: 40px;
 }
 
 body.index div.list {
-  margin-left: 100px;
   margin-bottom: 100px;
 }
 
