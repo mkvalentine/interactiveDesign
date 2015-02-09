@@ -1362,7 +1362,7 @@ body.index h1 {
   font-size: 60px;
   color: #FFFFFF;
   max-width: 700px;
-  margin-left: 40px;
+  margin-left: 20px;
 }
 
 body.index h2 {
@@ -1375,7 +1375,7 @@ body.index h2 {
 
 body.index div.list {
   margin-bottom: 100px;
-  margin-left: 80px;
+  margin-left: 60px;
 }
 
 body.index li {
