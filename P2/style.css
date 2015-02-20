@@ -2031,6 +2031,82 @@ body.two-cover a:hover {
   text-decoration: none
 }
 
+/*COVER STYLE: #3*/
+body.three-cover {
+  background: url(images/desk.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body.three-cover p {
+  font-family: 'Cutive Mono', monospace;
+  max-width: 400px;
+  -webkit-transform: rotate(-30deg); 
+  font-size: 15px;
+  margin-left: 20%;
+  margin-top: 10%;
+}
+
+body.three-cover nav {
+  text-transform: lowercase;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 30px;
+  background-color: #FFF;
+  opacity: 0.6;
+  border-radius: 15px;
+  padding: 20px;
+  width: 100px;
+  position: fixed;
+  left: 30px;
+  bottom: 30px;
+}
+
+body.three-cover a:link {
+  color: #000;
+  text-decoration: none;
+}
+
+body.three-cover a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+body.three-cover a:hover {
+  text-transform: uppercase;
+  color: #000;
+  text-decoration: none
+}
+
+/*COVER STYLE: #4*/
+body.four-cover div{
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin: 0;
+}
+
+body.four-cover div:hover{
+  background-color: #FFF;
+}
+
+body.four-cover div.yellow{
+  background-color: rgb(255, 240, 75);
+}
+
+body.four-cover div.blue{
+  background-color: rgb(0, 145, 210);
+}
+
+body.four-cover div.light-blue{
+  background-color: rgb(0, 185, 250);
+}
+
+body.four-cover div.dark-yellow{
+  background-color: rgb(250, 180, 15);
+}
+
 /*COVER STYLE: #6*/
 body.six-cover {
   background: url(images/triangles.gif); 
