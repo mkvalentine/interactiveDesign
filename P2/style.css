@@ -2042,11 +2042,11 @@ body.three-cover {
 
 body.three-cover p {
   font-family: 'Cutive Mono', monospace;
-  max-width: 350px;
+  max-width: 300px;
   -webkit-transform: rotate(-30deg); 
   font-size: 12px;
-  margin-left: 10%;
-  margin-top: 7%;
+  margin-left: 12%;
+  margin-top: 10%;
 }
 
 body.three-cover nav {
