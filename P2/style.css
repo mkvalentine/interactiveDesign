@@ -2081,14 +2081,39 @@ body.three-cover a:hover {
 
 /*COVER STYLE: #4*/
 body.four-cover div{
-  width: 40px;
-  height: 40px;
+  width: 150px;
+  height: 150px;
   display: inline-block;
-  margin: 0;
+}
+body.four-cover div p{
+  position: absolute;
+  padding: 10px;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 20px;
+  color: rgba(0, 145, 210, 100);
+  z-index: -1;
 }
 
-body.four-cover div:hover{
-  background-color: #FFF;
+body.four-cover div p.enter{
+  z-index: 2;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+body.four-cover a:link {
+  color: #000;
+  text-decoration: none;
+}
+
+body.four-cover a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+body.four-cover a:hover {
+  text-transform: uppercase;
+  color: #000;
+  text-decoration: none
 }
 
 body.four-cover div.yellow{
@@ -2105,6 +2130,14 @@ body.four-cover div.light-blue{
 
 body.four-cover div.dark-yellow{
   background-color: rgb(250, 180, 15);
+}
+
+body.four-cover div:hover{
+  background-color: rgba(0, 0, 0, 0);
+}
+
+body.four-cover {
+   cursor: url(images/compass1.png), auto;
 }
 
 /*COVER STYLE: #6*/
