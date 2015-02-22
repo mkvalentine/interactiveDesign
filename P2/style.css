@@ -2137,7 +2137,50 @@ body.four-cover div:hover{
 }
 
 body.four-cover {
-   cursor: url(images/compass1.png), auto;
+   cursor: url(images/cursor1.png), auto;
+}
+
+/*COVER STYLE: #5*/
+body.five-cover {
+  background: url(images/sine.gif);
+}
+
+body.five-cover span.highlight {
+  background-color: #FFF;
+}
+
+body.five-cover p {
+  width: 80%;
+  padding-left: 40px;
+  margin-top: 40px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 80px;
+}
+
+body.five-cover nav {
+  width: 80%;
+  padding-left: 40px;
+  margin-top: 40px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 80px;
+  margin-bottom: 5000px;
+}
+
+body.five-cover a:link {
+  color: #000;
+  text-decoration: none;
+}
+
+body.five-cover a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+body.five-cover a:hover {
+  color: #2800D6;
+  text-decoration: none
 }
 
 /*COVER STYLE: #6*/
@@ -2177,6 +2220,68 @@ body.six-cover a:visited {
 
 body.six-cover a:hover {
   color: #FFF;
+  text-decoration: none;
+}
+
+/*COVER STYLE: #7*/
+body.seven-cover {
+  width: 10000px;
+  background: url(images/nycover.gif); 
+}
+
+body.seven-cover h1{
+  width: 400px;
+  letter-spacing: 0.7em;
+  font-family: 'Trocchi', sans-serif;
+  text-shadow: 1px 1px #FFF;
+  font-size: 30px;
+  margin-top: 200px;
+  margin-left: 80px;
+  color: #000;
+}
+
+body.seven-cover p{
+  width: 15000px;
+  font-family: 'Trocchi', sans-serif;
+  text-shadow: 2px 2px #FFF;
+  font-size: 60px;
+  margin-top: 20px;
+  margin-left: 80px;
+  color: #000;
+  letter-spacing: 0.7em;
+}
+
+body.seven-cover nav {
+  margin-top: 10px;
+  margin-left: 80px;
+  font-family: 'Trocchi', sans-serif;
+  font-size: 30px;
+  letter-spacing: 0.7em;
+}
+
+body.seven-cover nav.far {
+  margin-top: 10px;
+  margin-left: 12000px;
+  font-family: 'Trocchi', sans-serif;
+  font-size: 30px;
+  letter-spacing: 0.7em;
+}
+
+body.seven-cover a:link {
+  color: #000;
+  text-shadow: 2px 2px #FFF;
+  text-decoration: none;
+}
+
+body.seven-cover a:visited {
+  color: #000;
+  text-shadow: 2px 2px #FFF;
+  text-decoration: none;
+}
+
+body.seven-cover a:hover {
+  color: #FFF;
+  text-shadow: 2px 2px #FFF;
   text-decoration: none;
 }
 
@@ -2274,6 +2379,210 @@ body.nine-cover a:visited {
 body.nine-cover a:hover {
   color: #FFFF00;
   text-decoration: none;
+}
+
+/*COVER STYLE: #10*/
+body.ten-cover {
+  background: url(images/pattern3.jpg); fixed;
+}
+body.ten-cover h1 {
+  font-size: 180px;
+  font-family: 'Megrim', sans-serif;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+body.ten-cover p {
+  font-size: 180px;
+  font-family: 'Megrim', sans-serif;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+body.ten-cover nav {
+  font-size: 180px;
+  font-family: 'Megrim', sans-serif;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+body.ten-cover a:link {
+  color: #000;
+  text-decoration: none;
+}
+
+body.ten-cover a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+body.ten-cover a:hover {
+  color: #0a9972;
+  text-decoration: none;
+}
+
+/*COVER STYLE: #11*/
+body.eleven-cover {
+  background: url(images/landscape.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body.eleven-cover img {
+  opacity: 0.4;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+}
+
+body.eleven-cover h1 {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 40px;
+}
+
+body.eleven-cover nav {
+  position: fixed;
+  bottom: 120px;
+  right: 30px;
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 40px;
+}
+
+body.eleven-cover a:link {
+  color: #000;
+  text-decoration: none;
+}
+
+body.eleven-cover a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+body.eleven-cover a:hover {
+  color: #0a9972;
+  text-decoration: none;
+}
+
+/*COVER STYLE: #12*/
+body.twelve-cover {
+  background: url(images/chalk.jpg); no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+body.twelve-cover img {
+  opacity: 0.2;
+  width: 70%;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+}
+
+body.twelve-cover div {
+  margin: 0 auto;
+  top: 150px;
+  width: 100%;
+  height: 250px;
+  background-color: #000;
+  position: fixed;
+  text-align: center;
+}
+
+body.twelve-cover div h1{
+  font-family: 'Dawning of a New Day', sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  text-transform: lowercase;
+  color: #FFF;
+}
+
+body.twelve-cover div nav{
+  font-family: 'Dawning of a New Day', sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  text-transform: lowercase;
+  color: #FFF;
+}
+
+body.twelve-cover a:link {
+  color: #FFF;
+  text-decoration: none;
+}
+
+body.twelve-cover a:visited {
+  color: #FFF;
+  text-decoration: none;
+}
+
+body.twelve-cover a:hover {
+  color: #FFF;
+  text-decoration: underline;
+}
+
+/*COVER STYLE: #13*/
+body.thirteen-cover {
+  background: url(images/flowerbird.gif);
+  background-size: 300px;
+}
+
+body.thirteen-cover h1 {
+  font-family: monospace;
+  font-weight: normal;
+  font-size: 40px;
+  max-width: 500px;
+  margin-right: 40px;
+  margin-left: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: left;
+  background: rgba(211, 211, 211, 0.7);
+  border-radius: 10px;
+  padding: 30px;
+}
+
+body.thirteen-cover nav {
+  font-family: monospace;
+  font-weight: normal;
+  font-size: 40px;
+  max-width: 500px;
+  margin-right: 40px;
+  margin-left: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: left;
+  background: rgba(211, 211, 211, 0.7);
+  border-radius: 10px;
+  padding: 30px;
+}
+
+body.thirteen-cover a:link {
+  color: #000;
+  text-decoration: none;
+}
+
+body.thirteen-cover a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+body.thirteen-cover a:hover {
+  color: #000;
+  text-decoration: underline;
 }
 
 /*COVER STYLE: #19 */
