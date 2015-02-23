@@ -2798,8 +2798,8 @@ body.seventeen-cover div.line2 {
 
 body.seventeen-cover h1 {
   max-width: 500px;
-  background: #FFF700;
-  color: #000;
+  background: #000;
+  color: #FFF;
   font-family: 'Coda', sans-serif;
   text-transform: uppercase;
   padding: 30px;
@@ -2812,8 +2812,8 @@ body.seventeen-cover h1 {
 
 body.seventeen-cover nav {
   max-width: 500px;
-  background: #FFF700;
-  color: #000;
+  background: #000;
+  color: #FFF;
   font-family: 'Coda', sans-serif;
   text-transform: uppercase;
   padding: 30px;
@@ -2826,17 +2826,17 @@ body.seventeen-cover nav {
 }
 
 body.seventeen-cover a:link {
-  color: #000;
+  color: #FFF;
   text-decoration: none;
 }
 
 body.seventeen-cover a:visited {
-  color: #000;
+  color: #FFF;
   text-decoration: none;
 }
 
 body.seventeen-cover a:hover {
-  color: #FFF;
+  color: #FFF700;
   text-decoration: none;
 }
 
