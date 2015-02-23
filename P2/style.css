@@ -2773,6 +2773,149 @@ body.sixteen-cover a:hover {
   text-decoration: none;
 }
 
+/*COVER STYLE: #17*/
+body.seventeen-cover {
+  background: url(images/mondrian.gif);
+}
+
+body.seventeen-cover div.line1 {
+  position: fixed;
+  width: 40px;
+  height: 1000px;
+  background: #000;
+  margin-left: 40px;
+  top: 0px;
+}
+
+body.seventeen-cover div.line2 {
+  position: fixed;
+  width: 100%;
+  height: 10px;
+  background: #000;
+  margin-top: 600px;
+  z-index: 15;
+}
+
+body.seventeen-cover h1 {
+  max-width: 500px;
+  background: #FFF700;
+  color: #000;
+  font-family: 'Coda', sans-serif;
+  text-transform: uppercase;
+  padding: 30px;
+  left: 100px;
+  position: absolute;
+  font-weight: normal;
+  font-size: 20px;
+  letter-spacing: 1.6em;
+}
+
+body.seventeen-cover nav {
+  max-width: 500px;
+  background: #FFF700;
+  color: #000;
+  font-family: 'Coda', sans-serif;
+  text-transform: uppercase;
+  padding: 30px;
+  top: 300px;
+  left: 100px;
+  position: absolute;
+  font-weight: normal;
+  font-size: 20px;
+  letter-spacing: 1.6em;
+}
+
+body.seventeen-cover a:link {
+  color: #000;
+  text-decoration: none;
+}
+
+body.seventeen-cover a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+body.seventeen-cover a:hover {
+  color: #FFF;
+  text-decoration: none;
+}
+
+/*COVER STYLE: #18*/
+body.eighteen-cover div.line1 {
+  position: fixed;
+  width: 100%;
+  height: 30%;
+  background: rgba(0,0,0, 0.85);
+  top: 0px;
+  z-index: 1;
+}
+
+body.eighteen-cover div.line2 {
+  position: fixed;
+  width: 100%;
+  height: 50%;
+  background: rgba(0,0,0, 0.85);
+  bottom: 0px;
+  z-index: 1;
+}
+
+body.eighteen-cover h1 {
+  font-family: 'Lora', serif;
+  text-transform: lowercase;
+  letter-spacing: 0.6em;
+  position: fixed;
+  max-width: 700px;
+  text-align: justify;
+  top: 50px;
+  left: 60px;
+  color: #4F4F4F;
+  z-index: 2;
+  font-weight: normal;
+  font-size: 23px;
+}
+
+body.eighteen-cover nav{
+  font-family: 'Lora', serif;
+  text-transform: lowercase;
+  letter-spacing: 0.6em;
+  position: fixed;
+  max-width: 700px;
+  text-align: justify;
+  bottom: 50px;
+  left: 60px;
+  color: #4F4F4F;
+  z-index: 2;
+  font-weight: normal;
+  font-size: 23px;
+}
+
+body.eighteen-cover a:link {
+  color: #4F4F4F;
+  text-decoration: none;
+}
+
+body.eighteen-cover a:visited {
+  color: #4F4F4F;
+  text-decoration: none;
+}
+
+body.eighteen-cover a:hover {
+  color: #FFF;
+  text-decoration: none;
+}
+
+body.eighteen-cover img {
+  width: 700px;
+}
+
+body.eighteen-cover div.image {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 600px;
+  margin-bottom: 600px;
+}
+
 /*COVER STYLE: #19 */
 body.nineteen-cover {
   background-color: #FFF;
