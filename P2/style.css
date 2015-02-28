@@ -3052,6 +3052,64 @@ body.twenty-cover nav {
   font-weight: 400;
 }
 
+/*HOME STYLE*/
+body.home header {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  width: 80%;
+  margin-left: 20px;
+  text-transform: uppercase;
+}
 
+body.home div {
+  display: inline-block;
+  width: 4.5%;
+  height: 500px;
+  overflow: hidden;
+}
 
+body.home div a img {
+  height: 450px;
+}
 
+body.home div:hover {
+  background-color: #ED1C4A;
+}
+
+body nav.constant {
+  margin: 0 auto;
+  bottom: 0px;
+  width: 100%;
+  min-height: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  background: rgba(0,0,0, 0.2);
+  position: fixed;
+  padding-top: 10px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  text-transform: uppercase;
+}
+
+body nav.constant a {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+body nav.constant a:link {
+  color: #FFF;
+  text-decoration: none;
+}
+
+body nav.constant a:visited {
+  color: #FFF;
+  text-decoration: none;
+}
+
+body nav.constant a:hover {
+  color: #ED1C4A;
+  text-decoration: none;
+}
