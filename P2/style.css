@@ -2461,6 +2461,7 @@ body.eleven-cover h1 {
   left: 20px;
   font-family: 'Amatic SC', sans-serif;
   font-size: 40px;
+  font-weight: normal;
 }
 
 body.eleven-cover nav.top {
@@ -2469,6 +2470,7 @@ body.eleven-cover nav.top {
   right: 30px;
   font-family: 'Amatic SC', sans-serif;
   font-size: 40px;
+  font-weight: normal;
 }
 
 body.eleven-cover a:link {
