@@ -2891,6 +2891,7 @@ body.eighteen-cover h1 {
 }
 
 body.eighteen-cover nav.top{
+  position: absolute;
   font-family: 'Lora', serif;
   text-transform: lowercase;
   letter-spacing: 0.6em;
