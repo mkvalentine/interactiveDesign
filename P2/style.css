@@ -2789,9 +2789,6 @@ body.sixteen-cover a:hover {
 }
 
 /*COVER STYLE: #17*/
-body.seventeen-cover {
-  background: url(images/mondrian.gif);
-}
 
 body.seventeen-cover div.line1 {
   position: fixed;
@@ -2813,7 +2810,7 @@ body.seventeen-cover div.line2 {
 
 body.seventeen-cover h1 {
   max-width: 500px;
-  background: #000;
+  background: #0500EF;
   color: #FFF;
   font-family: 'Coda', sans-serif;
   text-transform: uppercase;
@@ -2827,7 +2824,7 @@ body.seventeen-cover h1 {
 
 body.seventeen-cover nav.top {
   max-width: 500px;
-  background: #000;
+  background: #FFF700;
   color: #FFF;
   font-family: 'Coda', sans-serif;
   text-transform: uppercase;
