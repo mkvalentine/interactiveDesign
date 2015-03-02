@@ -3071,12 +3071,15 @@ body.twenty-cover nav.top {
 
 /*HOME STYLE*/
 body.home header {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 10px;
   width: 80%;
   margin-left: 20px;
+}
+
+body.home header h1 {
   text-transform: uppercase;
-  color: #303030;
+  color: #4F4F4F;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
 }
 
 body.home div {
