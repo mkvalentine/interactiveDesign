@@ -3108,6 +3108,7 @@ body nav.constant {
      -moz-box-sizing: border-box;
           box-sizing: border-box;
   text-transform: uppercase;
+  z-index: 20;
 }
 
 body nav.constant a {
