@@ -1698,7 +1698,7 @@ body.eighteen header {
   position: fixed;
   max-width: 700px;
   text-align: justify;
-  top: 50px;
+  top: 20px;
   left: 60px;
   color: #4F4F4F;
   z-index: 2;
@@ -1706,11 +1706,11 @@ body.eighteen header {
 }
 
 body.eighteen header h1 {
-  font-size: 23px
+  font-size: 15px
 }
 
 body.eighteen header h2 {
-  font-size: 23px
+  font-size: 15px
 }
 
 body.eighteen div.text {
@@ -2226,7 +2226,7 @@ body.six-cover a:hover {
 
 /*COVER STYLE: #7*/
 body.seven-cover {
-  width: 10000px;
+  width: 5000px;
   background: url(images/nycover.gif); 
 }
 
@@ -2262,9 +2262,9 @@ body.seven-cover nav.top {
 
 body.seven-cover nav.far {
   margin-top: 10px;
-  margin-left: 12000px;
+  margin-left: 3500px;
   font-family: 'Trocchi', sans-serif;
-  font-size: 30px;
+  font-size: 15px;
   letter-spacing: 0.7em;
 }
 
@@ -2878,12 +2878,12 @@ body.eighteen-cover h1 {
   position: fixed;
   max-width: 700px;
   text-align: justify;
-  top: 50px;
+  top: 20px;
   left: 60px;
   color: #4F4F4F;
   z-index: 2;
   font-weight: normal;
-  font-size: 23px;
+  font-size: 15px;
 }
 
 body.eighteen-cover nav.top{
@@ -2896,9 +2896,9 @@ body.eighteen-cover nav.top{
   bottom: 50px;
   left: 60px;
   color: #4F4F4F;
-  z-index: 2;
+  z-index: 4;
   font-weight: normal;
-  font-size: 23px;
+  font-size: 15px;
 }
 
 body.eighteen-cover a:link {
