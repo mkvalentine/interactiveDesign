@@ -1976,6 +1976,7 @@ body.two-cover img{
 body.two-cover header h1 {
   font-family: 'Codystar', sans-serif;
   font-size: 60px;
+  font-weight:  normal;
   color: #FFF;
 }
 
@@ -1993,6 +1994,7 @@ body.two-cover footer {
   margin-bottom: 100px;
   text-align: center;
   font-family: 'Codystar', sans-serif;
+  font-weight: normal;
   font-size: 60px;
   color: #FFF;
 }
