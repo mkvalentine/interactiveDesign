@@ -3079,7 +3079,7 @@ body.home header h1 {
   text-transform: uppercase;
   color: #4F4F4F;
   font-family: 'Montserrat', sans-serif;
-  font-size: 10px;
+  font-size: 30px;
 }
 
 body.home div {
@@ -3104,7 +3104,7 @@ body nav.constant {
   height: 40px;
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
-  font-size: 40px;
+  font-size: 15px;
   background: #4F4F4F;
   position: fixed;
   padding-top: 13px;
