@@ -2227,7 +2227,6 @@ body.six-cover a:hover {
 body.seven-cover {
   width: 10000px;
   background: url(images/nycover.gif); 
-  height: 1000px;
 }
 
 body.seven-cover h1{
@@ -2235,7 +2234,7 @@ body.seven-cover h1{
   letter-spacing: 0.7em;
   font-family: 'Trocchi', sans-serif;
   text-shadow: 1px 1px #FFF;
-  font-size: 30px;
+  font-size: 20px;
   margin-top: 200px;
   margin-left: 80px;
   color: #000;
@@ -2245,7 +2244,7 @@ body.seven-cover p{
   width: 15000px;
   font-family: 'Trocchi', sans-serif;
   text-shadow: 2px 2px #FFF;
-  font-size: 60px;
+  font-size: 20px;
   margin-top: 20px;
   margin-left: 80px;
   color: #000;
@@ -2256,7 +2255,7 @@ body.seven-cover nav.top {
   margin-top: 10px;
   margin-left: 80px;
   font-family: 'Trocchi', sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   letter-spacing: 0.7em;
 }
 
