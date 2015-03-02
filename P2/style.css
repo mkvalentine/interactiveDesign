@@ -2548,10 +2548,6 @@ body.twelve-cover a:hover {
 }
 
 /*COVER STYLE: #13*/
-body.thirteen-cover {
-  background: url(images/flowerbird.gif);
-  background-size: 300px;
-}
 
 body.thirteen-cover h1 {
   font-family: monospace;
@@ -2596,6 +2592,7 @@ body.thirteen-cover a:visited {
 body.thirteen-cover a:hover {
   color: #000;
   text-decoration: underline;
+  background: url(images/flowerbird.gif);
 }
 
 /*COVER STYLE: #14*/
