@@ -721,6 +721,7 @@ body.seven div.text {
   font-family: 'Trocchi', Georgia, serif;
   font-size: 16px;
   line-height: 22px;
+  margin-bottom: 100px;
 }
 
 body.seven div.text p:first-child:first-letter { 
