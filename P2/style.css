@@ -3089,6 +3089,14 @@ body.home div {
   overflow: hidden;
 }
 
+body.home div.container {
+  display: block;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
+}
+
 body.home div a img {
   height: 450px;
 }
