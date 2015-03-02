@@ -3132,4 +3132,5 @@ body nav.constant a:hover {
   color: #ED1C4A;
   text-decoration: none;
   text-shadow: none;
+  border-style: none;
 }
