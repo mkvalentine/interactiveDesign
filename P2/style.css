@@ -2626,6 +2626,7 @@ body.fourteen-cover h1 {
 }
 
 body.fourteen-cover nav.top {
+  position: relative;
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
