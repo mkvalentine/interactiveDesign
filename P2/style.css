@@ -3102,7 +3102,7 @@ body nav.constant {
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
   font-size: 15px;
-  background: #D1D1D1;
+  background: #C4C4C4;
   position: fixed;
   padding-top: 13px;
   text-align: center;
@@ -3134,5 +3134,5 @@ body nav.constant a:hover {
   text-decoration: none;
   text-shadow: none;
   border-style: none;
-  background-color: #D1D1D1;
+  background-color: #C4C4C4;
 }
