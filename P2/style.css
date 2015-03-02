@@ -2679,15 +2679,15 @@ body.fifteen-cover nav.top {
   font-family: 'Lato', sans-serif;
   font-weight: bold;
   text-align: center;
-  font-size: 75px;
+  font-size: 40px;
   color: #464646;
   line-height: 0.7em;
-  width: 200px;
+  width: 100px;
   padding: 20px;
   background-color: #464646;
   border-radius: 20px;
   position: fixed;
-  right: 100px;
+  right: 50px;
   bottom: 100px;
 }
 
