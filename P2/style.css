@@ -2609,7 +2609,7 @@ body.fourteen-cover img {
   position: fixed;
   width: 100%;
   opacity: 0.05;
-  z-index: 1;
+  z-index: 0;
 }
 
 body.fourteen-cover h1 {
@@ -2622,6 +2622,7 @@ body.fourteen-cover h1 {
   font-size: 50px;
   margin-top: 300px;
   margin-bottom: 80px;
+  z-index: 3;
 }
 
 body.fourteen-cover nav.top {
