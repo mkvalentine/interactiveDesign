@@ -40,11 +40,11 @@ function translateAlongPathLoop(path) {
         d3.select(this)
             .transition()
             .duration(2500)
-            .ease('bounce')
+            .ease('linear')
             .tween('translateAlongPath', translateAlongPath(path, 1))
             .transition()
             .duration(2500)
-            .ease('bounce')
+            .ease('linear')
             .tween('translateAlongPath', translateAlongPath(path, -1))
             .each('end', function () {
                 d3.select(this).each(animateFunction);
