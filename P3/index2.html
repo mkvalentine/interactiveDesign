@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+body {
+  width: 960px;
+  padding-top: 40px;
+  margin: auto;
+  position: relative;
+}
+svg {
+    width: 100%;
+    max-height: 400px;
+}
+</style>
+
+<svg viewBox='0 0 500 250'>
+    <path d="M100,200 C100,0 400,400 400,100" style='stroke:#f48;stroke-width:4;fill:none' />
+    <circle cx="100" cy="200" r="10" style='fill:#4f8'></circle>
+</svg>
+
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script type='text/javascript'>
+
+function translateAlongPath(path, direction) {
+    var l = path.getTotalLength();
+    return function() {
+        return function(t) {
+            if (direction < 0) t = 1 - t;
+            var p = path.getPointAtLength(t * l);
+            d3.select(this)
+                .attr('cx', p.x)
+                .attr('cy', p.y);
+        };
+    };
+}
+
+function translateAlongPathLoop(path) {
+    var animateFunction = function () {
+        d3.select(this)
+            .transition()
+            .duration(2500)
+            .ease('bounce')
+            .tween('translateAlongPath', translateAlongPath(path, 1))
+            .transition()
+            .duration(2500)
+            .ease('bounce')
+            .tween('translateAlongPath', translateAlongPath(path, -1))
+            .each('end', function () {
+                d3.select(this).each(animateFunction);
+            });
+    };
+    return animateFunction;
+}
+
+window.addEventListener('load', function () {
+    svg = d3.select('svg');
+
+    var motionPath = svg.select('path');
+    var circle = svg.select('circle');
+    circle.each(translateAlongPathLoop(motionPath.node()));
+});
+
+</script>
