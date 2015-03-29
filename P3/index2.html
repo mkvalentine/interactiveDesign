@@ -42,10 +42,10 @@ function translateAlongPathLoop(path) {
             .duration(2500)
             .ease('linear')
             .tween('translateAlongPath', translateAlongPath(path, 1))
-            .transition()
+            /*.transition()
             .duration(2500)
             .ease('linear')
-            .tween('translateAlongPath', translateAlongPath(path, -1))
+            .tween('translateAlongPath', translateAlongPath(path, -1))*/
             .each('end', function () {
                 d3.select(this).each(animateFunction);
             });
