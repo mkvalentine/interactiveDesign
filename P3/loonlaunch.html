@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Loon Launch</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='http://fonts.googleapis.com/css?family=Cutive+Mono' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="paper-full.js"></script>
+    <script type="text/paperscript" canvas="canvas">
+
+    // The amount of circles we want to make:
+	var count = 100;
+
+	// Create a symbol, which we will use to place instances of later:
+	var path = new Path.Circle({
+		center: [0, 0],
+		radius: 10,
+		fillColor: 'white'
+		//strokeColor: 'black'
+	});
+
+	path.opacity = 0.5;
+
+	var symbol = new Symbol(path);
+
+	// Place the instances of the symbol:
+	for (var i = 0; i < count; i++) {
+		// The center position is a random point in the view:
+		var center = Point.random() * view.size;
+		var placedSymbol = symbol.place(center);
+		//placedSymbol.scale(i / count);
+	}
+
+	function onMouseDown(event) {
+		var center = event.point;
+		var placedSymbol = symbol.place(center);
+		count++;
+	}
+	// The onFrame function is called up to 60 times a second:
+	function onFrame(event) {
+		// Run through the active layer's children list and change
+		// the position of the placed symbols:
+		for (var i = 0; i < count; i++) {
+			var item = project.activeLayer.children[i];
+			
+			if (i%2 == 0) {
+				item.position.x += (i+1)/(2*count);
+			}
+			else {
+				item.position.x += -(i+1)/(2*count);
+			}
+			
+			// If the item has left the view on the right, move it back
+			// to the left:
+			if (item.bounds.left > view.size.width) {
+				item.position.x = 0;
+			}
+			else if (item.bounds.right < 0) {
+				item.position.x = view.size.width;
+			}
+		}
+	}
+
+	project.activeLayer.onMouseEnter = function() {
+	        this.fillColor = 'red';
+	}
+
+	project.activeLayer.onMouseLeave = function() {
+	        this.fillColor = 'blue';
+	}
+
+
+    </script>
+</head>
+<body>
+	<h1>Loon Launch</h1>
+    <canvas id="canvas" resize hidpi="off" style="background:transparent"></canvas>
+</body>
+</html>
+
+

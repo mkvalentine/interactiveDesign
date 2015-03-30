@@ -1,0 +1,30 @@
+html,
+body {
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%
+}
+
+body {
+    background-image:  url(images/World_map.svg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-color: #d3d3d3;
+}
+
+h1 {
+	font-family: 'Cutive Mono';
+	font-size: 40px;
+	z-index: 3;
+	text-transform: lowercase;
+	margin-left: 3%;
+	position: fixed;
+	color: #787878;
+}
+
+/* Scale canvas with resize attribute to full size */
+canvas[resize] {
+    width: 100%;
+    height: 100%;
+}
