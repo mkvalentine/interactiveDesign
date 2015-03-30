@@ -9,7 +9,7 @@
     <script type="text/paperscript" canvas="canvas">
 
     // The amount of circles we want to make:
-	var count = 100;
+	var count = 50;
 
 	// Create a symbol, which we will use to place instances of later:
 	var path = new Path.Circle({
@@ -32,9 +32,14 @@
 	}
 
 	function onMouseDown(event) {
-		var center = event.point;
-		var placedSymbol = symbol.place(center);
-		count++;
+		if(event.item) {
+			event.item.scale(1.1);
+		}
+		else {
+			var center = event.point;
+			var placedSymbol = symbol.place(center);
+			count++;
+		}
 	}
 	// The onFrame function is called up to 60 times a second:
 	function onFrame(event) {
@@ -60,15 +65,6 @@
 			}
 		}
 	}
-
-	project.activeLayer.onMouseEnter = function() {
-	        this.fillColor = 'red';
-	}
-
-	project.activeLayer.onMouseLeave = function() {
-	        this.fillColor = 'blue';
-	}
-
 
     </script>
 </head>
