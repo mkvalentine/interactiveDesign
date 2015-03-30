@@ -64,7 +64,7 @@ function translateAlongPathLoop(path) {
 }
 
 window.addEventListener('load', function () {
-    svg = d3.selectAll('svg');
+    svg = d3.select('svg');
     var motionPath = svg.selectAll('path');
     var circle = svg.selectAll('circle');
     circle.each(translateAlongPathLoop(motionPath.node()));
