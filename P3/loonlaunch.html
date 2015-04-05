@@ -6,10 +6,11 @@
     <link rel="stylesheet" href="style.css">
     <link href='http://fonts.googleapis.com/css?family=Cutive+Mono' rel='stylesheet' type='text/css'>
     <script type="text/javascript" src="paper-full.js"></script>
+    <script type="text/javascript" src="toggle.js"></script>
     <script type="text/paperscript" canvas="canvas">
 
     // The amount of circles we want to make:
-	var count = 50;
+	var count = 75;
 
 	// Create a symbol, which we will use to place instances of later:
 	var path = new Path.Circle({
@@ -33,12 +34,19 @@
 
 	function onMouseDown(event) {
 		if(event.item) {
-			event.item.scale(1.1);
+			event.item.scale(1.25);
 		}
 		else {
 			var center = event.point;
 			var placedSymbol = symbol.place(center);
+			event.item.scale(1.25);
 			count++;
+		}
+	}
+
+	function onMouseUp(event) {
+		if (event.item) {
+			event.item.scale(.8);
 		}
 	}
 	// The onFrame function is called up to 60 times a second:
@@ -69,9 +77,18 @@
     </script>
 </head>
 <body>
+	<img id="map" src="images/World_map.svg">
 	<h1>Loon Launch</h1>
-    <canvas id="canvas" resize hidpi="off" style="background:transparent"></canvas>
+	<div id="overlay"></div>
+	<div id="specialBox">
+		<img id="close" src="images/x.svg" onmousedown="toggleOverlay()">
+	</div>
+	<div id="wrapper">
+		<img id="compass" src="images/compass.svg" onmousedown="toggleOverlay()">
+	</div>
+	<canvas id="canvas" resize hidpi="off" style="background:transparent"></canvas>
 </body>
+
 </html>
 
 
