@@ -1,6 +1,5 @@
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-@media handheld, screen and (max-width: 10000px) {
+@media screen and (max-width: 10000px) {
     html,
     body {
         margin: 0;
@@ -99,7 +98,7 @@
     }
 }
 
-@media handheld, screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
     img#map {
         display: none;
     }
