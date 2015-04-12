@@ -196,83 +196,16 @@
     div#wrapper {
         display: none;
     }
-    canvas {
-        display: none;
-    }
 
     img#loonGif {
         display: none;
     }
 
     div#phoneCompassStatic {
-        display: block;
-        position: fixed;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        margin: auto;
-        width: 70%;
-        height: 70%;
-        background-image: url(images/phoneCompassStatic.svg);
-        background-repeat: no-repeat;
-        background-size: 50% 50%;
-        opacity: 0.7;
-        z-index: 201;
+        display: none;
     }
     div#phoneCompass {
-        display: block;
-        position: fixed;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        margin: auto;
-        width: 70%;
-        height: 70%;
-        background-image: url(images/phoneCompass.svg);
-        background-repeat: no-repeat;
-        background-size: 50% 50%;
-        z-index: 201;
-
-        -webkit-animation-name: spin;
-        -webkit-animation-duration: 12000ms;
-        -webkit-animation-iteration-count: infinite;
-        -webkit-animation-timing-function: linear;
-        -moz-animation-name: spin;
-        -moz-animation-duration: 12000ms;
-        -moz-animation-iteration-count: infinite;
-        -moz-animation-timing-function: linear;
-        -ms-animation-name: spin;
-        -ms-animation-duration: 12000ms;
-        -ms-animation-iteration-count: infinite;
-        -ms-animation-timing-function: linear;
-        
-        animation-name: spin;
-        animation-duration: 12000ms;
-        animation-iteration-count: infinite;
-        animation-timing-function: linear;
-    }
-    @-ms-keyframes spin {
-        from { -ms-transform: rotate(360deg); }
-        to { -ms-transform: rotate(0deg); }
-    }
-    @-moz-keyframes spin {
-        from { -moz-transform: rotate(360deg); }
-        to { -moz-transform: rotate(0deg); }
-    }
-    @-webkit-keyframes spin {
-        from { -webkit-transform: rotate(360deg); }
-        to { -webkit-transform: rotate(0deg); }
-    }
-    @keyframes spin {
-        from {
-            transform:rotate(360deg);
-        }
-        to {
-            transform:rotate(0deg);
-        }
-    }
+        display: none;
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px)  {
@@ -291,77 +224,11 @@
     div#wrapper {
         display: none;
     }
-    canvas {
-        display: none;
-    }
 
     div#phoneCompassStatic {
-        display: block;
-        position: fixed;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        margin: auto;
-        width: 70%;
-        height: 70%;
-        background-image: url(images/phoneCompassStatic.svg);
-        background-repeat: no-repeat;
-        background-size: 50% 50%;
-        opacity: 0.7;
-        z-index: 201;
+        display: none;
     }
     div#phoneCompass {
-        display: block;
-        position: fixed;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        margin: auto;
-        width: 70%;
-        height: 70%;
-        background-image: url(images/phoneCompass.svg);
-        background-repeat: no-repeat;
-        background-size: 50% 50%;
-        z-index: 201;
-
-        -webkit-animation-name: spin;
-        -webkit-animation-duration: 24000ms;
-        -webkit-animation-iteration-count: infinite;
-        -webkit-animation-timing-function: linear;
-        -moz-animation-name: spin;
-        -moz-animation-duration: 24000ms;
-        -moz-animation-iteration-count: infinite;
-        -moz-animation-timing-function: linear;
-        -ms-animation-name: spin;
-        -ms-animation-duration: 24000ms;
-        -ms-animation-iteration-count: infinite;
-        -ms-animation-timing-function: linear;
-        
-        animation-name: spin;
-        animation-duration: 24000ms;
-        animation-iteration-count: infinite;
-        animation-timing-function: linear;
-    }
-    @-ms-keyframes spin {
-        from { -ms-transform: rotate(360deg); }
-        to { -ms-transform: rotate(0deg); }
-    }
-    @-moz-keyframes spin {
-        from { -moz-transform: rotate(360deg); }
-        to { -moz-transform: rotate(0deg); }
-    }
-    @-webkit-keyframes spin {
-        from { -webkit-transform: rotate(360deg); }
-        to { -webkit-transform: rotate(0deg); }
-    }
-    @keyframes spin {
-        from {
-            transform:rotate(360deg);
-        }
-        to {
-            transform:rotate(0deg);
-        }
+        display: none;
     }
 }
