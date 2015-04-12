@@ -47,21 +47,19 @@ $(document).ready(function(){
 	// show status
 	$('#status').show();
 
-	// toggle stoplight
-	var status = "STOP";
+	// toggle gif
 	$('#button').toggle(function(){
-		$('#status').html("GO");
-		$('#status').css('background-color', "green");
-		$('#baby').show();
-		status = "GO";
-	},
-	function() {
-        $('#status').html("STOP");
-		$('#status').css('background-color', "red");
-		$('#baby').fadeOut('slow');
-		status = "STOP";
-
-	});
+			$('#status').html("GO");
+			$('#status').css('background-color', "green");
+			$('#baby').show();
+			status = "GO";
+		},
+		function() {
+	        $('#status').html("STOP");
+			$('#status').css('background-color', "red");
+			$('#baby').fadeOut('slow');
+			status = "STOP";
+		});
 
 	setInterval(function() {
       if (status == "STOP") {
