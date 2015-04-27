@@ -2,6 +2,7 @@ body {
   	font-family: 'Anonymous Pro', monospace;
   	height: 100%;
   	text-align: center;
+  	overflow: hidden;
 }
 
 div.inside {

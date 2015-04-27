@@ -35,7 +35,7 @@ $.ajax({
   })
 
 $.ajax({
-  "url":"https://www.kimonolabs.com/api/bcyavhx2?apikey=PX3xPB972VaCF6oqN7jFOUM0KhrB7Anq",
+  "url":"https://www.kimonolabs.com/api/26ka5j26?apikey=PX3xPB972VaCF6oqN7jFOUM0KhrB7Anq",
   "crossDomain":true,
   "dataType":"jsonp",
   //Make a call to the Kimono API following the "url" 
@@ -48,7 +48,7 @@ $.ajax({
     for (var i = 0; i < 1; i++){   
     // Traverses through every element in the entire collection 
         var randomCollection = collection[Math.floor(Math.random()*collection.length)];
-        var six = randomCollection.story.text;
+        var six = randomCollection.words.text;
 
         $('.words').append(six + '<br>');
         //$('.group').append(timeStamp + '<br>' + '<img src="' + photoURL + '">');
