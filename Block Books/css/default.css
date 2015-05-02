@@ -26,6 +26,12 @@ body {
 	overflow: hidden;
 }
 
+@media screen and (max-width: 780px) {
+  body  {
+    overflow: scroll;
+  }
+}
+
 a {
 	color: #555;
 	text-decoration: none;
@@ -266,9 +272,19 @@ a img {
 	color: #fff;
 }
 
-.demo-5 body {
+
+@media screen and (min-width: 780px) {
+  .demo-5 body {
 	background: #EBEBEB;
+	}
 }
+
+@media screen and (max-width: 780px) {
+  .demo-5 body {
+	background: #FFF;
+	}
+}
+
 
 
 @media screen and (max-width: 46.0625em) {
