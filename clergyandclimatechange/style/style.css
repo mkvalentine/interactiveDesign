@@ -11,7 +11,7 @@ div img {
 	bottom: -20px;
 }
 
-h1 .big{
+h1.big{
 	font-size: 60px;
 	font-weight: bold;
 	color: #4FC1E9;
@@ -22,7 +22,7 @@ h1 .big{
 	top: 60px;
 }
 
-h2 .big{
+h2.big{
 	font-size: 30px;
 	font-weight: normal;
 	color: #A0D468;
@@ -136,6 +136,7 @@ p.thispage {
   box-shadow: inset 1px 2px 6px 6px rgba(0,0,0,0.6);
   overflow: scroll;
   padding: 20px;
+  color: #3f3f3f;
 }
 
 #right {
@@ -148,6 +149,7 @@ p.thispage {
   box-shadow: inset 1px 2px 6px 6px rgba(0,0,0,0.6);
   overflow: scroll;
   padding: 20px;
+  color: #3f3f3f; 
 }
 
 div.container {
