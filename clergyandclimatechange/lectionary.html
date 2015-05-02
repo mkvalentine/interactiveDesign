@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/clndr.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+
+	<title>Clergy and Climate Change</title>
+</head>
+<body>
+	<nav class="top">
+      <a href="lectionary.html" class="thispage" >Lectionary</a>
+      <a href="preaching.html">Preaching</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="living.html">Living</a>
+      <a href="about.html">About Us</a>
+      <a href="home.html">Home</a>
+  </nav>
+  <div id="left"></div>
+	<div id="right"></div>
+  <div id="left-caption">from the bible</div>
+  <div id="right-caption">a climate change context</div>
+  
+  <!--CALENDAR-->
+  <div class="container">
+    <div class="cal2">
+      <script type="text/template" id="template-calendar">
+        <div class="clndr-controls">
+          <div class="clndr-previous-button">&lsaquo;</div>
+          <div class="month"><%= month %></div>
+          <div class="clndr-next-button">&rsaquo;</div>
+        </div>
+        <div class="clndr-grid">
+          <div class="days-of-the-week">
+            <% _.each(daysOfTheWeek, function(day) { %>
+              <div class="header-day"><%= day %></div>
+            <% }); %>
+            <div class="days">
+              <% _.each(days, function(day) { %>
+                <div class="<%= day.classes %>"><%= day.day %></div>
+              <% }); %>
+            </div>
+          </div>
+        </div>
+        <div class="clndr-today-button">Today</div>
+      </script>
+
+    </div>
+  </div>
+
+  <div class="small">
+    <h1 class="big">Clergy &<br>Climate Change</h1>
+    <h3 class="big">Visit us on a larger screen to see more!</h3>
+    <img src="images/scene.svg" alt="Your browser can't display this image" class="shadow">
+  </div>
+
+  <!--SCRIPTS FOR CALENDAR-->
+  <script src="json2.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+  <script src= "moment-2.8.3.js"></script>
+
+  <script src="clndr.js"></script>
+  <script src="site.js"></script>
+</body>
+</html>
