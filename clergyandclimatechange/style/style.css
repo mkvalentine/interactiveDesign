@@ -13,7 +13,7 @@ div img {
 
 h1.big{
 	font-size: 60px;
-	font-weight: bold;
+	font-weight: lighter;
 	color: #4FC1E9;
 	text-transform: uppercase;
 	line-height: 65px;
@@ -24,7 +24,7 @@ h1.big{
 
 h2.big{
 	font-size: 30px;
-	font-weight: normal;
+	font-weight: lighter;
 	color: #A0D468;
 	position: fixed;
 	left: 60px;
@@ -40,7 +40,7 @@ nav.top {
   width: 110%;
   height: 60px;
   font-family: 'Open Sans';
-  font-weight: bold;
+  font-weight: lighter;
   font-size: 16px;
   text-transform: uppercase;
   background: #FFF;
@@ -95,7 +95,7 @@ p.thispage {
   position: absolute;
   width: 16%;
   top: 90px;
-  font-weight: bold;
+  font-weight: lighter;
   left: 1%;
   color: #4FC1E9;
   font-size: 15px;
@@ -110,7 +110,7 @@ p.thispage {
   text-align: center;
   text-transform: uppercase;
   padding: 20px;
-  font-weight: bold;
+  font-weight: lighter;
   color: #7e7e7e;
 }
 
@@ -122,7 +122,7 @@ p.thispage {
   text-align: center;
   text-transform: uppercase;
   padding: 20px;
-  font-weight: bold;
+  font-weight: lighter;
   color: #7e7e7e;
 }
 
